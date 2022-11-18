@@ -1,0 +1,266 @@
+\BOOKMARK [0][-]{chapter.1}{Prefacio}{}% 1
+\BOOKMARK [0][-]{chapter.2}{Introducci\363n: informaci\363n que puede contener un modelo IFC}{}% 2
+\BOOKMARK [1][-]{section.2.1}{Estructuras espaciales y agrupaciones de entidades \(IfcProject\) \(IfcSite\) \(IfcBuilding\) \(IfcWorkPlan\) etc.}{chapter.2}% 3
+\BOOKMARK [1][-]{section.2.2}{Productos \(IfcProduct\)}{chapter.2}% 4
+\BOOKMARK [1][-]{section.2.3}{Recursos \(IfcResource\)}{chapter.2}% 5
+\BOOKMARK [1][-]{section.2.4}{Procesos \(IfcProcess\)}{chapter.2}% 6
+\BOOKMARK [1][-]{section.2.5}{Controles \(IfcControl\)}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.6}{Actores \(IfcActor\)}{chapter.2}% 8
+\BOOKMARK [1][-]{section.2.7}{Grupos \(IfcGroup\)}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.8}{Un vistazo general a las entidades contempladas en las especificaciones IFC.}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.8.1}{secci\363n `5. Core data schemas':}{section.2.8}% 11
+\BOOKMARK [2][-]{subsection.2.8.2}{secci\363n `6. Shared element data schemas':}{section.2.8}% 12
+\BOOKMARK [2][-]{subsection.2.8.3}{secci\363n `7. Domain specific data schemas':}{section.2.8}% 13
+\BOOKMARK [2][-]{subsection.2.8.4}{secci\363n `8. Resource definition data schemas':}{section.2.8}% 14
+\BOOKMARK [2][-]{subsection.2.8.5}{Comentarios sobre las dem\341s secciones de las especificaciones}{section.2.8}% 15
+\BOOKMARK [0][-]{chapter.3}{Introducci\363n: estructura interna de la informaci\363n en el modelo}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Los ``contenedores'' de entidades}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.1.1}{contexto general}{section.3.1}% 18
+\BOOKMARK [2][-]{subsection.3.1.2}{contexto espacial}{section.3.1}% 19
+\BOOKMARK [2][-]{subsection.3.1.3}{contexto temporal}{section.3.1}% 20
+\BOOKMARK [2][-]{subsection.3.1.4}{contexto funcional}{section.3.1}% 21
+\BOOKMARK [1][-]{section.3.2}{Las entidades \(IfcXxxx\) \(IfcXxxxType\)}{chapter.3}% 22
+\BOOKMARK [2][-]{subsection.3.2.1}{Algunos ejemplos:}{section.3.2}% 23
+\BOOKMARK [1][-]{section.3.3}{Los atributos de las entidades, informaci\363n intr\355nseca a la entidad}{chapter.3}% 24
+\BOOKMARK [2][-]{subsection.3.3.1}{Herencia de atributos}{section.3.3}% 25
+\BOOKMARK [1][-]{section.3.4}{Las propiedades \(PSet\137 \) y los cuantificadores \(Qto\137 \), informaci\363n adicional acerca de la entidad}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.4.1}{Por ejemplo, para un muro:}{section.3.4}% 27
+\BOOKMARK [1][-]{section.3.5}{Las relaciones entre entidades}{chapter.3}% 28
+\BOOKMARK [2][-]{subsection.3.5.1}{Posicionamiento relativo}{section.3.5}% 29
+\BOOKMARK [2][-]{subsection.3.5.2}{Composici\363n \(IfcRelDeclares \205 IfcRelDecomposes\)}{section.3.5}% 30
+\BOOKMARK [2][-]{subsection.3.5.3}{Asociaci\363n \(IfcRelAssociates\)}{section.3.5}% 31
+\BOOKMARK [2][-]{subsection.3.5.4}{Asignaci\363n \(IfcRelAssigns\)}{section.3.5}% 32
+\BOOKMARK [2][-]{subsection.3.5.5}{Conexi\363n \(IfcRelConnects\)}{section.3.5}% 33
+\BOOKMARK [2][-]{subsection.3.5.6}{Por ejemplo, para un muro:}{section.3.5}% 34
+\BOOKMARK [1][-]{section.3.6}{La representaci\363n gr\341fica de las entidades f\355sicas}{chapter.3}% 35
+\BOOKMARK [2][-]{subsection.3.6.1}{Representaci\363n de forma geom\351trica \(IfcShapeRepresentation\)}{section.3.6}% 36
+\BOOKMARK [2][-]{subsection.3.6.2}{Representaci\363n de forma topol\363gica \(IfcTopologyRepresentation\)}{section.3.6}% 37
+\BOOKMARK [2][-]{subsection.3.6.3}{Por ejemplo, para representar un muro de forma geom\351trica:}{section.3.6}% 38
+\BOOKMARK [0][-]{chapter.4}{Introducci\363n: algunos aspectos t\351cnicos}{}% 39
+\BOOKMARK [1][-]{section.4.1}{Vistas, MVD \(Model View Definition\)}{chapter.4}% 40
+\BOOKMARK [1][-]{section.4.2}{Formatos en que se puede escribir el modelo en un archivo}{chapter.4}% 41
+\BOOKMARK [1][-]{section.4.3}{Objetos \(IfcRoot\205IfcObjectDefinition\205IfcObject\)}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.3.1}{Herencia de atributos}{section.4.3}% 43
+\BOOKMARK [2][-]{subsection.4.3.2}{Atributos inversos}{section.4.3}% 44
+\BOOKMARK [1][-]{section.4.4}{Conjuntos de propiedades \(PSet\137 \) y de cuantificadores \(Qto\137 \)}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.5}{Relaciones \(IfcRelationship\)}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.5.1}{Asociaci\363n \(IfcRelAssociates\)}{section.4.5}% 47
+\BOOKMARK [2][-]{subsection.4.5.2}{Composici\363n \(IfcRelDeclares \205 IfcRelDecomposes\)}{section.4.5}% 48
+\BOOKMARK [2][-]{subsection.4.5.3}{Asignaci\363n \(IfcRelAssigns\)}{section.4.5}% 49
+\BOOKMARK [2][-]{subsection.4.5.4}{Conexi\363n \(IfcRelConnects\)}{section.4.5}% 50
+\BOOKMARK [1][-]{section.4.6}{Ubicaci\363n en el espacio \(IfcObjectPlacement\)}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.6.1}{Posici\363n y Orientaci\363n \(IfcPlacement\)}{section.4.6}% 52
+\BOOKMARK [2][-]{subsection.4.6.2}{Entidades auxiliares:}{section.4.6}% 53
+\BOOKMARK [1][-]{section.4.7}{Representaci\363n grafica}{chapter.4}% 54
+\BOOKMARK [2][-]{subsection.4.7.1}{Representaci\363n gr\341fica geom\351trica \(IfcShapeRepresentation\)}{section.4.7}% 55
+\BOOKMARK [2][-]{subsection.4.7.2}{Representaci\363n gr\341fica topol\363gica \(IfcTopologyRepresentation\)}{section.4.7}% 56
+\BOOKMARK [2][-]{subsection.4.7.3}{Traslaci\363n, rotaci\363n, escalado y simetria \040\(IfcCartesianTransformationOperator\)}{section.4.7}% 57
+\BOOKMARK [2][-]{subsection.4.7.4}{Estilos de presentaci\363n \(IfcPresentationStyle\)}{section.4.7}% 58
+\BOOKMARK [2][-]{subsection.4.7.5}{Texturas \(IfcSurfaceTexture\)}{section.4.7}% 59
+\BOOKMARK [2][-]{subsection.4.7.6}{Iluminaci\363n \(IfcLightSource\)}{section.4.7}% 60
+\BOOKMARK [0][-]{chapter.5}{Entidades base}{}% 61
+\BOOKMARK [1][-]{section.5.1}{IfcRoot, la madre principal de la que derivan gran parte de todas las dem\341s entidades}{chapter.5}% 62
+\BOOKMARK [1][-]{section.5.2}{IfcRelationship, la madre de las relaciones entre entidades}{chapter.5}% 63
+\BOOKMARK [2][-]{subsection.5.2.1}{IfcRelAssigns: enlaces gen\351ricos entre objetos relacionados}{section.5.2}% 64
+\BOOKMARK [2][-]{subsection.5.2.2}{IfcRelAssociates: enlaces con fuentes de informaci\363n}{section.5.2}% 65
+\BOOKMARK [2][-]{subsection.5.2.3}{IfcRelConnects: conexiones entre objetos unidos o relacionados entre s\355 de alg\372n modo}{section.5.2}% 66
+\BOOKMARK [2][-]{subsection.5.2.4}{IfcRelDeclares: inclusi\363n de objetos o propiedades dentro del modelo}{section.5.2}% 67
+\BOOKMARK [2][-]{subsection.5.2.5}{IfcRelDecomposes: desglose o despiece de objetos compuestos}{section.5.2}% 68
+\BOOKMARK [2][-]{subsection.5.2.6}{IfcRelDefines: relaci\363n de un objeto con tipos o con conjuntos de propiedades}{section.5.2}% 69
+\BOOKMARK [1][-]{section.5.3}{IfcObjectDefinition-IfcObject-IfcTypeObject, las madres de los objetos}{chapter.5}% 70
+\BOOKMARK [2][-]{subsection.5.3.1}{Productos \(IfcProduct\)}{section.5.3}% 71
+\BOOKMARK [2][-]{subsection.5.3.2}{Recursos \(IfcResource, IfcConstructionResource\)}{section.5.3}% 72
+\BOOKMARK [2][-]{subsection.5.3.3}{Procesos \(IfcProcess\)}{section.5.3}% 73
+\BOOKMARK [2][-]{subsection.5.3.4}{Controles \(IfcControl\)}{section.5.3}% 74
+\BOOKMARK [2][-]{subsection.5.3.5}{Actores \(IfcActor\)}{section.5.3}% 75
+\BOOKMARK [2][-]{subsection.5.3.6}{Grupos \(IfcGroup\)}{section.5.3}% 76
+\BOOKMARK [1][-]{section.5.4}{IfcPropertyDefinition, la madre de las propiedades asociadas a los objetos}{chapter.5}% 77
+\BOOKMARK [2][-]{subsection.5.4.1}{IfcPropertySetDefinition, IfcPropertySet, IfcQuantitySet: conjuntos estandares de propiedades o cuantificadores}{section.5.4}% 78
+\BOOKMARK [2][-]{subsection.5.4.2}{IfcPropertyTemplateDefinition, IfcPropertySetTemplate, IfcPropertyTemplate: conjuntos definidos-por-el-usuario de propiedades o cuantificadores}{section.5.4}% 79
+\BOOKMARK [2][-]{subsection.5.4.3}{IfcRelAssociates: otras fuentes de informaci\363n que aportan datos}{section.5.4}% 80
+\BOOKMARK [1][-]{section.5.5}{IfcContext}{chapter.5}% 81
+\BOOKMARK [1][-]{section.5.6}{IfcProject, el ``contenedor'' principal de todo el modelo}{chapter.5}% 82
+\BOOKMARK [1][-]{section.5.7}{ap\351ndice: algunas entidades auxiliares}{chapter.5}% 83
+\BOOKMARK [2][-]{subsection.5.7.1}{IfcLabel, IfcIdentifier}{section.5.7}% 84
+\BOOKMARK [2][-]{subsection.5.7.2}{IfcXxxxSelect}{section.5.7}% 85
+\BOOKMARK [2][-]{subsection.5.7.3}{IfcProperty}{section.5.7}% 86
+\BOOKMARK [0][-]{chapter.6}{Entidades relativas a emplazamientos}{}% 87
+\BOOKMARK [1][-]{section.6.1}{IfcSite, un ``contenedor'' principal}{chapter.6}% 88
+\BOOKMARK [1][-]{section.6.2}{IfcGeographicElement, elementos tales como terreno, \341rboles, estanques, fuentes, bancos, marquesinas,\203}{chapter.6}% 89
+\BOOKMARK [0][-]{chapter.7}{Entidades relativas a edificios}{}% 90
+\BOOKMARK [1][-]{section.7.1}{IfcBuilding, un ``contenedor'' principal}{chapter.7}% 91
+\BOOKMARK [1][-]{section.7.2}{IfcBuildingStorey, un ``contenedor'' secundario}{chapter.7}% 92
+\BOOKMARK [1][-]{section.7.3}{IfcBuildingSystem, una agrupaci\363n funcional}{chapter.7}% 93
+\BOOKMARK [1][-]{section.7.4}{IfcBuildingElement, la madre de la mayoria de los elementos relativos al edificio}{chapter.7}% 94
+\BOOKMARK [2][-]{subsection.7.4.1}{IfcBeam, vigas}{section.7.4}% 95
+\BOOKMARK [2][-]{subsection.7.4.2}{IfcChimney, chimeneas}{section.7.4}% 96
+\BOOKMARK [2][-]{subsection.7.4.3}{IfcColumn, columnas}{section.7.4}% 97
+\BOOKMARK [2][-]{subsection.7.4.4}{IfcCovering, acabados}{section.7.4}% 98
+\BOOKMARK [2][-]{subsection.7.4.5}{IfcCurtainWall, muros cortina}{section.7.4}% 99
+\BOOKMARK [2][-]{subsection.7.4.6}{IfcDoor, puertas}{section.7.4}% 100
+\BOOKMARK [2][-]{subsection.7.4.7}{IfcFooting, elementos de cimentaci\363n}{section.7.4}% 101
+\BOOKMARK [2][-]{subsection.7.4.8}{IfcMember, elementos para distribuci\363n de cargas}{section.7.4}% 102
+\BOOKMARK [2][-]{subsection.7.4.9}{IfcPile, pilotes de cimentaci\363n}{section.7.4}% 103
+\BOOKMARK [2][-]{subsection.7.4.10}{IfcPlate, rigidizadores}{section.7.4}% 104
+\BOOKMARK [2][-]{subsection.7.4.11}{IfcRailing, barandillas}{section.7.4}% 105
+\BOOKMARK [2][-]{subsection.7.4.12}{IfcRampFlight, tramos de rampa}{section.7.4}% 106
+\BOOKMARK [2][-]{subsection.7.4.13}{IfcRamp, rampas}{section.7.4}% 107
+\BOOKMARK [2][-]{subsection.7.4.14}{IfcShadingDevice, parasoles}{section.7.4}% 108
+\BOOKMARK [2][-]{subsection.7.4.15}{IfcRoof, techos}{section.7.4}% 109
+\BOOKMARK [2][-]{subsection.7.4.16}{IfcSlab, forjados}{section.7.4}% 110
+\BOOKMARK [2][-]{subsection.7.4.17}{IfcStairFlight, tramos de escalera}{section.7.4}% 111
+\BOOKMARK [2][-]{subsection.7.4.18}{IfcStair, escaleras}{section.7.4}% 112
+\BOOKMARK [2][-]{subsection.7.4.19}{IfcWall, muros}{section.7.4}% 113
+\BOOKMARK [2][-]{subsection.7.4.20}{IfcWindow, ventanas}{section.7.4}% 114
+\BOOKMARK [2][-]{subsection.7.4.21}{IfcBuildingElementProxy, elemento comod\355n que no es ninguno de los anteriores}{section.7.4}% 115
+\BOOKMARK [1][-]{section.7.5}{IfcElementAssembly, agregaciones complejas de elementos}{chapter.7}% 116
+\BOOKMARK [1][-]{section.7.6}{IfcElementComponent, elementos auxiliares}{chapter.7}% 117
+\BOOKMARK [1][-]{section.7.7}{IfcFeatureElement, accesorios que modifican la forma de otro elemento}{chapter.7}% 118
+\BOOKMARK [1][-]{section.7.8}{IfcFurnisingElement, elementos muebles}{chapter.7}% 119
+\BOOKMARK [2][-]{subsection.7.8.1}{IfcFurniture, mobiliario}{section.7.8}% 120
+\BOOKMARK [2][-]{subsection.7.8.2}{IfcSystemFurnitureElement, partes de un mobiliario modular}{section.7.8}% 121
+\BOOKMARK [1][-]{section.7.9}{IfcTransportElement, escaleras mec\341nicas,ascensores,\203}{chapter.7}% 122
+\BOOKMARK [1][-]{section.7.10}{IfcVirtualElement, divisiones virtuales de espacios f\355sicos di\341fanos}{chapter.7}% 123
+\BOOKMARK [0][-]{chapter.8}{Entidades relativas a instalaciones}{}% 124
+\BOOKMARK [1][-]{section.8.1}{IfcDistributionSystem, una agrupaci\363n funcional}{chapter.8}% 125
+\BOOKMARK [1][-]{section.8.2}{IfcDistributionCircuit, una agrupaci\363n funcional secundaria}{chapter.8}% 126
+\BOOKMARK [1][-]{section.8.3}{IfcDistributionElement, la madre de la mayoria de los elementos relativos a instalaciones}{chapter.8}% 127
+\BOOKMARK [1][-]{section.8.4}{IfcDistributionControlElement, la madre de los elementos para monitorizaci\363n y control del funcionamiento de las instalaciones.}{chapter.8}% 128
+\BOOKMARK [2][-]{subsection.8.4.1}{IfcActuator, dispositivos de manejo}{section.8.4}% 129
+\BOOKMARK [2][-]{subsection.8.4.2}{IfcAlarm, dispositivos de aviso}{section.8.4}% 130
+\BOOKMARK [2][-]{subsection.8.4.3}{IfcController, dispositivos de regulaci\363n}{section.8.4}% 131
+\BOOKMARK [2][-]{subsection.8.4.4}{IfcFlowInstrument, dispositivos de medici\363n}{section.8.4}% 132
+\BOOKMARK [2][-]{subsection.8.4.5}{IfcProtectiveDeviceTrippintUnit, dispositivos de protecci\363n}{section.8.4}% 133
+\BOOKMARK [2][-]{subsection.8.4.6}{IfcSensor, sensores}{section.8.4}% 134
+\BOOKMARK [2][-]{subsection.8.4.7}{IfcUnitaryControlElement, agrupaci\363n de diversos dispositivos para un fin concreto}{section.8.4}% 135
+\BOOKMARK [1][-]{section.8.5}{IfcDistributionFlowElement, la madre de los elementos para transporte, manejo y uso de los fluidos: electricidad, agua, aire,\203que circulan por las instalaciones.}{chapter.8}% 136
+\BOOKMARK [2][-]{subsection.8.5.1}{IfcDistributionChamberElement, espacios desde los que inspeccionar la instalaci\363n}{section.8.5}% 137
+\BOOKMARK [2][-]{subsection.8.5.2}{IfcEnergyConversionDevice, conversores de una forma a otra de energia}{section.8.5}% 138
+\BOOKMARK [2][-]{subsection.8.5.3}{IfcFlowController, elementos de regulaci\363n, protecci\363n y control}{section.8.5}% 139
+\BOOKMARK [2][-]{subsection.8.5.4}{IfcFlowFitting, elementos de acoplamiento entre tramos de conducci\363n}{section.8.5}% 140
+\BOOKMARK [2][-]{subsection.8.5.5}{IfcFlowMovingDevice, elementos de impulsi\363n}{section.8.5}% 141
+\BOOKMARK [2][-]{subsection.8.5.6}{IfcFlowSegment, tramos \(rectos\) de conducci\363n}{section.8.5}% 142
+\BOOKMARK [2][-]{subsection.8.5.7}{IfcFlowStorageDevice, elementos de almacenamiento}{section.8.5}% 143
+\BOOKMARK [2][-]{subsection.8.5.8}{IfcFlowTerminal, elementos finales conectados a la instalaci\363n}{section.8.5}% 144
+\BOOKMARK [2][-]{subsection.8.5.9}{IfcTreatmentDevice, elementos para acondicionar el fluido transportado}{section.8.5}% 145
+\BOOKMARK [0][-]{chapter.9}{Entidades relativas a infraestructuras civiles}{}% 146
+\BOOKMARK [1][-]{section.9.1}{IfcBridge, un ``contenedor'' principal}{chapter.9}% 147
+\BOOKMARK [1][-]{section.9.2}{IfcRoad, un ``contenedor'' principal}{chapter.9}% 148
+\BOOKMARK [1][-]{section.9.3}{IfcRailway, un ``contenedor'' principal}{chapter.9}% 149
+\BOOKMARK [1][-]{section.9.4}{IfcMarineFacility, un ``contenedor'' principal}{chapter.9}% 150
+\BOOKMARK [1][-]{section.9.5}{IfcGeotechnicalElement, la madre de los elementos relacionados con la geot\351cnia}{chapter.9}% 151
+\BOOKMARK [2][-]{subsection.9.5.1}{IfcGeotechnicalAssembly, conjuntos de elementos que forman un modelo geot\351cnico.}{section.9.5}% 152
+\BOOKMARK [2][-]{subsection.9.5.2}{IfcBorehole, representacion de una cata sobre el terreno}{section.9.5}% 153
+\BOOKMARK [2][-]{subsection.9.5.3}{IfcGeomodel, representaci\363n volum\351trica de una secci\363n del terreno}{section.9.5}% 154
+\BOOKMARK [2][-]{subsection.9.5.4}{IfcGeoslice, representaci\363n de un corte del terreno}{section.9.5}% 155
+\BOOKMARK [2][-]{subsection.9.5.5}{IfcGeotechnicalStratum, capas dentro de un modelo geot\351cnico.}{section.9.5}% 156
+\BOOKMARK [2][-]{subsection.9.5.6}{IfcSolidStratum, capa s\363lida}{section.9.5}% 157
+\BOOKMARK [2][-]{subsection.9.5.7}{IfcVoidStratum, hueco lleno de gas}{section.9.5}% 158
+\BOOKMARK [2][-]{subsection.9.5.8}{IfcWaterStratum, capa l\355quida}{section.9.5}% 159
+\BOOKMARK [1][-]{section.9.6}{IfcBuiltElement, la madre de la mayoria de los elementos relativos a una construcci\363n.}{chapter.9}% 160
+\BOOKMARK [2][-]{subsection.9.6.1}{IfcBearing, apoyos y articulaciones}{section.9.6}% 161
+\BOOKMARK [2][-]{subsection.9.6.2}{IfcCourse, capas constructivas en un trazado}{section.9.6}% 162
+\BOOKMARK [2][-]{subsection.9.6.3}{IfcDeepFoundation}{section.9.6}% 163
+\BOOKMARK [2][-]{subsection.9.6.4}{IfcEarthworksElement, trazados creados mediante movimientos de tierra}{section.9.6}% 164
+\BOOKMARK [2][-]{subsection.9.6.5}{IfcKerb, bordillos}{section.9.6}% 165
+\BOOKMARK [2][-]{subsection.9.6.6}{IfcMooringDevice, amarres}{section.9.6}% 166
+\BOOKMARK [2][-]{subsection.9.6.7}{IfcNavigationElement, faros y boyas}{section.9.6}% 167
+\BOOKMARK [2][-]{subsection.9.6.8}{IfcPavement, pavimentos}{section.9.6}% 168
+\BOOKMARK [2][-]{subsection.9.6.9}{IfcRail, vias, trazados ferroviarios}{section.9.6}% 169
+\BOOKMARK [2][-]{subsection.9.6.10}{IfcTrackElement, elementos ferroviarios}{section.9.6}% 170
+\BOOKMARK [0][-]{chapter.10}{Entidades relativas a gesti\363n administrativa}{}% 171
+\BOOKMARK [1][-]{section.10.1}{IfcResource, la madre de los elementos que dan un servicio, se utilizan o se consumen}{chapter.10}% 172
+\BOOKMARK [2][-]{subsection.10.1.1}{IfcConstructionEquipmentResource, maquinaria y equipos de construccion}{section.10.1}% 173
+\BOOKMARK [2][-]{subsection.10.1.2}{IfcConstructionMaterialResource, materias primas}{section.10.1}% 174
+\BOOKMARK [2][-]{subsection.10.1.3}{IfcConstructionProductResource, ensamblados auxiliares}{section.10.1}% 175
+\BOOKMARK [2][-]{subsection.10.1.4}{IfcLaborResource, oficios necesarios para ciertos tipos de tareas}{section.10.1}% 176
+\BOOKMARK [2][-]{subsection.10.1.5}{IfcCrewResource, recursos propios}{section.10.1}% 177
+\BOOKMARK [2][-]{subsection.10.1.6}{IfcSubContractResource, recursos subcontratados}{section.10.1}% 178
+\BOOKMARK [1][-]{section.10.2}{IfcActor, la madre de organizaciones y personas}{chapter.10}% 179
+\BOOKMARK [2][-]{subsection.10.2.1}{IfcOrganization}{section.10.2}% 180
+\BOOKMARK [2][-]{subsection.10.2.2}{IfcPerson}{section.10.2}% 181
+\BOOKMARK [2][-]{subsection.10.2.3}{IfcPersonAndOrganization}{section.10.2}% 182
+\BOOKMARK [1][-]{section.10.3}{IfcProcess, la madre de los elementos que suceden o se planifican}{chapter.10}% 183
+\BOOKMARK [2][-]{subsection.10.3.1}{IfcEvent, sucesos}{section.10.3}% 184
+\BOOKMARK [2][-]{subsection.10.3.2}{IfcTask, tareas}{section.10.3}% 185
+\BOOKMARK [2][-]{subsection.10.3.3}{IfcProcedure, procesos}{section.10.3}% 186
+\BOOKMARK [1][-]{section.10.4}{IfcControl, la madre de los elementos que permiten, especifican o planifican algo}{chapter.10}% 187
+\BOOKMARK [2][-]{subsection.10.4.1}{IfcActionRequest, peticiones}{section.10.4}% 188
+\BOOKMARK [2][-]{subsection.10.4.2}{IfcCostItem, elementos de coste}{section.10.4}% 189
+\BOOKMARK [2][-]{subsection.10.4.3}{IfcCostSchedule, presupuestos}{section.10.4}% 190
+\BOOKMARK [2][-]{subsection.10.4.4}{IfcPerformanceHistory, partes de trabajo}{section.10.4}% 191
+\BOOKMARK [2][-]{subsection.10.4.5}{IfcPermit, autorizaciones}{section.10.4}% 192
+\BOOKMARK [2][-]{subsection.10.4.6}{IfcProjectOrder, contratos}{section.10.4}% 193
+\BOOKMARK [2][-]{subsection.10.4.7}{IfcWorkCalendar, calendarios laborales}{section.10.4}% 194
+\BOOKMARK [2][-]{subsection.10.4.8}{IfcWorkControl, planificaciones de trabajos}{section.10.4}% 195
+\BOOKMARK [1][-]{section.10.5}{IfcInventory, agrupaciones de elementos a contar o a valorar}{chapter.10}% 196
+\BOOKMARK [0][-]{chapter.11}{Entidades relativas a c\341lculo estructural}{}% 197
+\BOOKMARK [1][-]{section.11.1}{IfcStructuralAnalysisModel, un ``contenedor'' principal}{chapter.11}% 198
+\BOOKMARK [1][-]{section.11.2}{IfcStructuralLoadGroup, una agrupaci\363n funcional}{chapter.11}% 199
+\BOOKMARK [1][-]{section.11.3}{IfcStructuralResultGroup, una agrupaci\363n funcional}{chapter.11}% 200
+\BOOKMARK [1][-]{section.11.4}{IfcStructuralItem, la madre de los elementos estructurales}{chapter.11}% 201
+\BOOKMARK [2][-]{subsection.11.4.1}{IfcStructuralMember, curvas o superficies anal\355ticas que respresentan elementos estructurales}{section.11.4}% 202
+\BOOKMARK [2][-]{subsection.11.4.2}{IfcStructuralConnection, restricciones y apoyos}{section.11.4}% 203
+\BOOKMARK [1][-]{section.11.5}{IfcStructuralActivity, la madre de las fuerzas, desplazamientos, reacciones,\203}{chapter.11}% 204
+\BOOKMARK [2][-]{subsection.11.5.1}{IfcStructuralAction, cargas aplicadas}{section.11.5}% 205
+\BOOKMARK [2][-]{subsection.11.5.2}{IfcStructuralReaction, reacciones resultantes}{section.11.5}% 206
+\BOOKMARK [0][-]{chapter.12}{Entidades para representaci\363n gr\341fica geom\351trica}{}% 207
+\BOOKMARK [1][-]{section.12.1}{Puntos y nubes de puntos}{chapter.12}% 208
+\BOOKMARK [2][-]{subsection.12.1.1}{IfcPoint}{section.12.1}% 209
+\BOOKMARK [2][-]{subsection.12.1.2}{IfcCartesianPointList}{section.12.1}% 210
+\BOOKMARK [1][-]{section.12.2}{Curvas \(IfcCurve\), l\355neas}{chapter.12}% 211
+\BOOKMARK [2][-]{subsection.12.2.1}{IfcBoundedCurve}{section.12.2}% 212
+\BOOKMARK [2][-]{subsection.12.2.2}{IfcConic}{section.12.2}% 213
+\BOOKMARK [2][-]{subsection.12.2.3}{IfcLine}{section.12.2}% 214
+\BOOKMARK [2][-]{subsection.12.2.4}{IfcOffsetCurve}{section.12.2}% 215
+\BOOKMARK [2][-]{subsection.12.2.5}{IfcPcurve}{section.12.2}% 216
+\BOOKMARK [2][-]{subsection.12.2.6}{IfcSurfaceCurve}{section.12.2}% 217
+\BOOKMARK [1][-]{section.12.3}{Superficies \(IfcSurface\)}{chapter.12}% 218
+\BOOKMARK [2][-]{subsection.12.3.1}{IfcBoundedSurface}{section.12.3}% 219
+\BOOKMARK [2][-]{subsection.12.3.2}{IfcElementarySurface}{section.12.3}% 220
+\BOOKMARK [2][-]{subsection.12.3.3}{IfcSweptSurface}{section.12.3}% 221
+\BOOKMARK [1][-]{section.12.4}{Vol\372menes \(IfcSolidModel\)}{chapter.12}% 222
+\BOOKMARK [2][-]{subsection.12.4.1}{IfcCsqSolid}{section.12.4}% 223
+\BOOKMARK [2][-]{subsection.12.4.2}{IfcManifoldSolidBrep}{section.12.4}% 224
+\BOOKMARK [2][-]{subsection.12.4.3}{IfcSectionedSolid}{section.12.4}% 225
+\BOOKMARK [2][-]{subsection.12.4.4}{IfcSweptAreaSolid}{section.12.4}% 226
+\BOOKMARK [1][-]{section.12.5}{SectionedSpine}{chapter.12}% 227
+\BOOKMARK [1][-]{section.12.6}{BoundingBox}{chapter.12}% 228
+\BOOKMARK [1][-]{section.12.7}{MappedRepresentation}{chapter.12}% 229
+\BOOKMARK [1][-]{section.12.8}{Anotaciones}{chapter.12}% 230
+\BOOKMARK [2][-]{subsection.12.8.1}{Textos \(IfcTextLiteral\)}{section.12.8}% 231
+\BOOKMARK [2][-]{subsection.12.8.2}{Areas ralladas \(IfcAnnotationFillArea\)}{section.12.8}% 232
+\BOOKMARK [2][-]{subsection.12.8.3}{Cotas, detalles, s\355mbolos y otros gr\341ficos explicativos}{section.12.8}% 233
+\BOOKMARK [0][-]{chapter.13}{entidades para representaci\363n gr\341fica topol\363gica}{}% 234
+\BOOKMARK [1][-]{section.13.1}{V\351rtices \(IfcVertex\)}{chapter.13}% 235
+\BOOKMARK [1][-]{section.13.2}{Aristas \(IfcEdge\) \(IfcOrientedEdge\)}{chapter.13}% 236
+\BOOKMARK [1][-]{section.13.3}{Caminos \(IfcPath\) \(IfcLoop\)}{chapter.13}% 237
+\BOOKMARK [1][-]{section.13.4}{Caras \(IfcFace\) \(IfcFaceBound\)}{chapter.13}% 238
+\BOOKMARK [1][-]{section.13.5}{Conjuntos \(IfcConnectedFaceSet\) \(IfcShell\)}{chapter.13}% 239
+\BOOKMARK [0][-]{chapter.14}{ap\351ndice A: Algunas referencias de herramientas}{}% 240
+\BOOKMARK [1][-]{section.14.1}{Visores:}{chapter.14}% 241
+\BOOKMARK [1][-]{section.14.2}{Utilidades:}{chapter.14}% 242
+\BOOKMARK [1][-]{section.14.3}{Plataformas para federaci\363n, verificaci\363n de modelos y coordinaci\363n}{chapter.14}% 243
+\BOOKMARK [1][-]{section.14.4}{Bibliotecas de programaci\363n y ejemplos:}{chapter.14}% 244
+\BOOKMARK [1][-]{section.14.5}{Bibliotecas de programaci\363n comerciales}{chapter.14}% 245
+\BOOKMARK [1][-]{section.14.6}{Bibliotecas de representaci\363n gr\341fica}{chapter.14}% 246
+\BOOKMARK [1][-]{section.14.7}{Otras bibliotecas interesantes}{chapter.14}% 247
+\BOOKMARK [1][-]{section.14.8}{Fuentes de informaci\363n}{chapter.14}% 248
+\BOOKMARK [1][-]{section.14.9}{Trabajando modelos IFC con Revit}{chapter.14}% 249
+\BOOKMARK [2][-]{subsection.14.9.1}{Necesidad de un plug-in externo}{section.14.9}% 250
+\BOOKMARK [2][-]{subsection.14.9.2}{El proceso de importaci\363n}{section.14.9}% 251
+\BOOKMARK [2][-]{subsection.14.9.3}{El proceso de exportaci\363n}{section.14.9}% 252
+\BOOKMARK [2][-]{subsection.14.9.4}{Par\341metros relacionados con la exportaci\363n}{section.14.9}% 253
+\BOOKMARK [2][-]{subsection.14.9.5}{Par\341metos relacionados con clasificaciones para partidas presupuestarias}{section.14.9}% 254
+\BOOKMARK [1][-]{section.14.10}{Trabajando modelos IFC con otros softwares de modelado}{chapter.14}% 255
+\BOOKMARK [2][-]{subsection.14.10.1}{Archicad}{section.14.10}% 256
+\BOOKMARK [2][-]{subsection.14.10.2}{Edificius}{section.14.10}% 257
+\BOOKMARK [2][-]{subsection.14.10.3}{Tekla}{section.14.10}% 258
+\BOOKMARK [2][-]{subsection.14.10.4}{Bentley}{section.14.10}% 259
+\BOOKMARK [2][-]{subsection.14.10.5}{Allplan}{section.14.10}% 260
+\BOOKMARK [2][-]{subsection.14.10.6}{VectorWorks}{section.14.10}% 261
+\BOOKMARK [2][-]{subsection.14.10.7}{DDS CAD}{section.14.10}% 262
+\BOOKMARK [2][-]{subsection.14.10.8}{Cipe}{section.14.10}% 263
+\BOOKMARK [2][-]{subsection.14.10.9}{Renga}{section.14.10}% 264
+\BOOKMARK [2][-]{subsection.14.10.10}{Blender}{section.14.10}% 265
+\BOOKMARK [2][-]{subsection.14.10.11}{FreeCAD}{section.14.10}% 266

@@ -1,0 +1,1176 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.7) (preloaded format=pdflatex 2021.1.8)  26 AUG 2021 10:28
+entering extended mode
+**./ApuntesDelCurso-OpenBIM-IFC-.tex
+(ApuntesDelCurso-OpenBIM-IFC-.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-07-17>
+("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count168
+\c@section=\count169
+\c@subsection=\count170
+\c@subsubsection=\count171
+\c@paragraph=\count172
+\c@subparagraph=\count173
+\c@figure=\count174
+\c@table=\count175
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
+Package: babel 2020/07/13 3.47 The Babel package
+
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
+File: babel.def 2020/07/13 3.47 Babel common definitions
+\babel@savecnt=\count176
+\U@D=\dimen135
+\l@babelnohyphens=\language79
+
+("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count177
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX\tex/latex/babel-spanish\spanish.ldf"
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks15
+\es@quotdepth=\count178
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+("C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(C:\Users\jmurua\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+)
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count179
+\Gm@cntv=\count180
+\c@Gm@tempcnt=\count181
+\Gm@bindingoffset=\dimen136
+\Gm@wd@mp=\dimen137
+\Gm@odd@mp=\dimen138
+\Gm@even@mp=\dimen139
+\Gm@layoutwidth=\dimen140
+\Gm@layoutheight=\dimen141
+\Gm@layouthoffset=\dimen142
+\Gm@layoutvoffset=\dimen143
+\Gm@dimlist=\toks19
+
+(C:\Users\jmurua\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
+("C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty"
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count182
+\LTcapwidth=\dimen144
+\LT@head=\box45
+\LT@firsthead=\box46
+\LT@foot=\box47
+\LT@lastfoot=\box48
+\LT@cols=\count183
+\LT@rows=\count184
+\c@LT@tables=\count185
+\c@LT@chunks=\count186
+\LT@p@ftn=\toks20
+)
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks21
+\ex@=\dimen145
+))
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen146
+)
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count187
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count188
+\leftroot@=\count189
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count190
+\DOTSCASE@=\count191
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box49
+\strutbox@=\box50
+\big@size=\dimen147
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
+\dotsspace@=\muskip16
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks22
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks23
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks24
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+)
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen154
+\Gin@req@width=\dimen155
+)
+("C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty"
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+("C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+("C:\Program Files\MiKTeX\tex/latex/auxhook\auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen156
+\Hy@linkcounter=\count199
+\Hy@pagecounter=\count266
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count267
+Package hyperref Info: Option `final' set `true' on input line 4338.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4338.
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count268
+
+("C:\Program Files\MiKTeX\tex/latex/url\url.sty"
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen157
+
+("C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count269
+\Field@Width=\dimen158
+\Fld@charsize=\dimen159
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring ON on input line 6365.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+("C:\Program Files\MiKTeX\tex/generic/atbegshi\atbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+)
+\Hy@abspage=\count270
+\c@Item=\count271
+\c@Hfootnote=\count272
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def"
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+("C:\Program Files\MiKTeX\tex/latex/atveryend\atveryend.sty"
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+)
+\Fld@listcount=\count273
+\c@bookmark@seq@number=\count274
+
+("C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip56
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 21.
+
+("C:\Program Files\MiKTeX\tex/latex/cleveref\cleveref.sty"
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+)
+(C:\Users\jmurua\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip57
+\f@nch@O@elh=\skip58
+\f@nch@O@erh=\skip59
+\f@nch@O@olh=\skip60
+\f@nch@O@orh=\skip61
+\f@nch@O@elf=\skip62
+\f@nch@O@erf=\skip63
+\f@nch@O@olf=\skip64
+\f@nch@O@orf=\skip65
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 29.
+
+("C:\Program Files\MiKTeX\tex/latex/authoraftertitle\authoraftertitle.sty"
+Package: authoraftertitle 2020/07/20 v1.0 package for Author after Titlepage
+)
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count275
+\l__pdf_internal_box=\box51
+)
+(ApuntesDelCurso-OpenBIM-IFC-.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+)
+\openout1 = `ApuntesDelCurso-OpenBIM-IFC-.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(85.35826pt, 426.79134pt, 85.35828pt)
+* v-part:(T,H,B)=(53.49118pt, 711.3189pt, 80.23677pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=426.79134pt
+* \textheight=711.3189pt
+* \oddsidemargin=13.08827pt
+* \evensidemargin=13.08827pt
+* \topmargin=-55.77881pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=57.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=33.0pt plus 9.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count276
+\scratchdimen=\dimen160
+\scratchbox=\box52
+\nofMPsegments=\count277
+\nofMParguments=\count278
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count279
+\MPscratchDim=\dimen161
+\MPnumerator=\count280
+\makeMPintoPDFobject=\count281
+\everyMPtoPDFconversion=\toks27
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+\AtBeginShipoutBox=\box53
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\color.sty"
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+Package hyperref Info: Link coloring ON on input line 37.
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count282
+)
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+LaTeX Info: Redefining \nameref on input line 37.
+
+(ApuntesDelCurso-OpenBIM-IFC-.out) (ApuntesDelCurso-OpenBIM-IFC-.out)
+\@outlinefile=\write3
+\openout3 = `ApuntesDelCurso-OpenBIM-IFC-.out'.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
+
+
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
+
+
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (29.81798pt too wide) in paragraph at lines 49--51
+[]\OT1/cmr/m/n/10 Curso im-par-ti-do por Da-vid Del-ga-do Ven-drell ([][]$\OT1/
+cmtt/m/n/10 https : / / es . linkedin . com / in / daviddelgadovendrell/$[][]\O
+T1/cmr/m/n/10 ).
+ []
+
+(ApuntesDelCurso-OpenBIM-IFC-.toc
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+Package cleveref Info: loaded `spanish' language definitions on input line 1.
+ [1{C:/Users/jmurua/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+])
+\tf@toc=\write4
+\openout4 = `ApuntesDelCurso-OpenBIM-IFC-.toc'.
+
+ [2]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 60.
+
+[3]
+Overfull \hbox (15.70482pt too wide) in paragraph at lines 108--109
+[][][]$\OT1/cmtt/m/n/10 https : / / technical . buildingsmart . org / projects 
+/ information-[]delivery-[]specification-[]ids/$[][] 
+ []
+
+[4] [5]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 154.
+
+[6]
+<./imagenes/MVD es un subconjunto del esquema IFC.png, id=272, 730.22812pt x 67
+5.27281pt>
+File: ./imagenes/MVD es un subconjunto del esquema IFC.png Graphic file (type p
+ng)
+<use ./imagenes/MVD es un subconjunto del esquema IFC.png>
+Package pdftex.def Info: ./imagenes/MVD es un subconjunto del esquema IFC.png  
+used on input line 200.
+(pdftex.def)             Requested size: 384.10959pt x 355.20358pt.
+
+Overfull \hbox (13.95508pt too wide) in paragraph at lines 209--211
+[][]$\OT1/cmtt/m/n/10 https : / / technical . buildingsmart . org / wp-[]conten
+t / uploads / 2021 / 01 / GSC-[]001 % 20Basic %
+ []
+
+
+Overfull \hbox (8.18317pt too wide) in paragraph at lines 216--217
+[]\OT1/cmr/m/n/10 Todas las MVDs de-fi-ni-das has-ta aho-ra se pue-den con-sul-
+tar en: [][]$\OT1/cmtt/m/n/10 https : / / technical . buildingsmart .
+ []
+
+[7 <./imagenes/MVD es un subconjunto del esquema IFC.png>] [8] [9]
+Overfull \hbox (13.84769pt too wide) in paragraph at lines 319--320
+[]\OT1/cmr/m/n/10 IfcRoot: [][]$\OT1/cmtt/m/n/10 https : / / standards . buildi
+ngsmart . org / IFC / RELEASE / IFC4 / ADD2 _ TC1 / HTML / link /
+ []
+
+
+Overfull \hbox (12.73714pt too wide) in paragraph at lines 320--321
+[]\OT1/cmr/m/n/10 IfcObjectDefinition: [][]$\OT1/cmtt/m/n/10 https : / / standa
+rds . buildingsmart . org / IFC / RELEASE / IFC4 / ADD2 _ TC1 /
+ []
+
+
+Overfull \hbox (0.8207pt too wide) in paragraph at lines 321--322
+[]\OT1/cmr/m/n/10 IfcPropertyDefinition: [][]$\OT1/cmtt/m/n/10 https : / / stan
+dards . buildingsmart . org / IFC / RELEASE / IFC4 / ADD2 _
+ []
+
+
+Overfull \hbox (20.70909pt too wide) in paragraph at lines 322--323
+[]\OT1/cmr/m/n/10 IfcRelationship: [][]$\OT1/cmtt/m/n/10 https : / / standards 
+. buildingsmart . org / IFC / RELEASE / IFC4 / ADD2 _ TC1 / HTML /
+ []
+
+
+Overfull \hbox (23.95499pt too wide) in paragraph at lines 337--339
+[][]$\OT1/cmtt/m/n/10 https : / / standards . buildingsmart . org / IFC / RELEA
+SE / IFC4 / ADD2 _ TC1 / HTML / annex / annex-[]e /
+ []
+
+<./imagenes/ifcrelfillselements-fig1.png, id=338, 502.87875pt x 402.50375pt>
+File: ./imagenes/ifcrelfillselements-fig1.png Graphic file (type png)
+<use ./imagenes/ifcrelfillselements-fig1.png>
+Package pdftex.def Info: ./imagenes/ifcrelfillselements-fig1.png  used on input
+ line 347.
+(pdftex.def)             Requested size: 426.79134pt x 341.60161pt.
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 347--354
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--354
+
+ []
+
+[10]
+<./imagenes/atributo HasOpenings.png, id=352, 292.84406pt x 42.1575pt>
+File: ./imagenes/atributo HasOpenings.png Graphic file (type png)
+<use ./imagenes/atributo HasOpenings.png>
+Package pdftex.def Info: ./imagenes/atributo HasOpenings.png  used on input lin
+e 357.
+(pdftex.def)             Requested size: 234.27556pt x 33.72603pt.
+<./imagenes/atributos de IfcRelVoidsElement.png, id=353, 295.1025pt x 74.52844p
+t>
+File: ./imagenes/atributos de IfcRelVoidsElement.png Graphic file (type png)
+<use ./imagenes/atributos de IfcRelVoidsElement.png>
+Package pdftex.def Info: ./imagenes/atributos de IfcRelVoidsElement.png  used o
+n input line 359.
+(pdftex.def)             Requested size: 236.0823pt x 59.62282pt.
+<./imagenes/atributo VoidsElements.png, id=354, 210.03468pt x 29.35968pt>
+File: ./imagenes/atributo VoidsElements.png Graphic file (type png)
+<use ./imagenes/atributo VoidsElements.png>
+Package pdftex.def Info: ./imagenes/atributo VoidsElements.png  used on input l
+ine 360.
+(pdftex.def)             Requested size: 168.02797pt x 23.48775pt.
+ [11 <./imagenes/ifcrelfillselements-fig1.png> <./imagenes/atributo HasOpenings
+.png> <./imagenes/atributos de IfcRelVoidsElement.png> <./imagenes/atributo Voi
+dsElements.png>]
+Overfull \hbox (39.20485pt too wide) in paragraph at lines 372--373
+\OT1/cmtt/m/n/10 standards . buildingsmart . org / IFC / RELEASE / IFC4 / ADD2 
+_ TC1 / HTML / link / ifcgloballyuniqueid .
+ []
+
+[12]
+Overfull \hbox (19.8476pt too wide) in paragraph at lines 406--407
+\OT1/cmr/m/n/10 ject, que in-di-ca re-la-cio-nes de la cla-se `If-cRel-De-fi-ne
+sBy-Pro-per-ties' [][]$\OT1/cmtt/m/n/10 https : / / standards . buildingsmart .
+
+ []
+
+<./imagenes/property-sets-for-objects.png, id=373, 740.7675pt x 791.95876pt>
+File: ./imagenes/property-sets-for-objects.png Graphic file (type png)
+<use ./imagenes/property-sets-for-objects.png>
+Package pdftex.def Info: ./imagenes/property-sets-for-objects.png  used on inpu
+t line 409.
+(pdftex.def)             Requested size: 426.79134pt x 456.29117pt.
+
+Overfull \hbox (26.80087pt too wide) in paragraph at lines 408--411
+[]$\OML/cmm/m/it/10 IsDefinedBy \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 RelatedObje
+cts=RelatingPropertyDefinition \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 DefinesOcurr
+ence=HasProperties$ 
+ []
+
+
+Overfull \hbox (89.20418pt too wide) in paragraph at lines 408--411
+[][]$\OT1/cmtt/m/n/10 https : / / standards . buildingsmart . org / IFC / RELEA
+SE / IFC4 / ADD2 _ TC1 / HTML / link / property-[]sets-[]for-[]objects .
+ []
+
+[13 <./imagenes/property-sets-for-objects.png>]
+<./imagenes/quantity-sets.png, id=384, 740.7675pt x 593.21625pt>
+File: ./imagenes/quantity-sets.png Graphic file (type png)
+<use ./imagenes/quantity-sets.png>
+Package pdftex.def Info: ./imagenes/quantity-sets.png  used on input line 414.
+(pdftex.def)             Requested size: 426.79134pt x 341.78462pt.
+
+Overfull \hbox (7.75461pt too wide) in paragraph at lines 413--416
+[]$\OML/cmm/m/it/10 IsDefinedBy \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 RelatedObje
+cts=RelatingPropertyDefinition \OMS/cmsy/m/n/10 ! \OML/cmm/m/it/10 DefinesOcurr
+ence=Quantities$ 
+ []
+
+
+Overfull \hbox (25.20473pt too wide) in paragraph at lines 413--416
+[][]$\OT1/cmtt/m/n/10 https : / / standards . buildingsmart . org / IFC / RELEA
+SE / IFC4 / ADD2 _ TC1 / HTML / link / quantity-[]sets .
+ []
+
+[14 <./imagenes/quantity-sets.png>]
+Overfull \hbox (54.95471pt too wide) in paragraph at lines 453--455
+[][]$\OT1/cmtt/m/n/10 https : / / standards . buildingsmart . org / IFC / RELEA
+SE / IFC4 / ADD2 _ TC1 / HTML / link / ifcsimplevalue .
+ []
+
+
+Overfull \hbox (60.20467pt too wide) in paragraph at lines 455--457
+[][]$\OT1/cmtt/m/n/10 https : / / standards . buildingsmart . org / IFC / RELEA
+SE / IFC4 / ADD2 _ TC1 / HTML / link / ifcmeasurevalue .
+ []
+
+
+Overfull \hbox (96.95435pt too wide) in paragraph at lines 457--459
+[][]$\OT1/cmtt/m/n/10 https : / / standards . buildingsmart . org / IFC / RELEA
+SE / IFC4 / ADD2 _ TC1 / HTML / link / ifcderivedmeasurevalue .
+ []
+
+[15]
+<./imagenes/ifcrelcontainedinspatialstructure-fig1.png, id=404, 558.085pt x 558
+.085pt>
+File: ./imagenes/ifcrelcontainedinspatialstructure-fig1.png Graphic file (type 
+png)
+<use ./imagenes/ifcrelcontainedinspatialstructure-fig1.png>
+Package pdftex.def Info: ./imagenes/ifcrelcontainedinspatialstructure-fig1.png 
+ used on input line 481.
+(pdftex.def)             Requested size: 426.79134pt x 426.80591pt.
+ [16 <./imagenes/ifcrelcontainedinspatialstructure-fig1.png>]
+<./imagenes/ifcbuildingelement.png, id=409, 659.46375pt x 252.945pt>
+File: ./imagenes/ifcbuildingelement.png Graphic file (type png)
+<use ./imagenes/ifcbuildingelement.png>
+Package pdftex.def Info: ./imagenes/ifcbuildingelement.png  used on input line 
+501.
+(pdftex.def)             Requested size: 298.75262pt x 114.59225pt.
+<./imagenes/ifcenergyconversiondevice.png, id=410, 304.13625pt x 505.89pt>
+File: ./imagenes/ifcenergyconversiondevice.png Graphic file (type png)
+<use ./imagenes/ifcenergyconversiondevice.png>
+Package pdftex.def Info: ./imagenes/ifcenergyconversiondevice.png  used on inpu
+t line 503.
+(pdftex.def)             Requested size: 182.48315pt x 303.53633pt.
+<./imagenes/atributo PredefinedType para un IfcElectricMotor.png, id=411, 332.7
+4312pt x 37.64063pt>
+File: ./imagenes/atributo PredefinedType para un IfcElectricMotor.png Graphic f
+ile (type png)
+<use ./imagenes/atributo PredefinedType para un IfcElectricMotor.png>
+Package pdftex.def Info: ./imagenes/atributo PredefinedType para un IfcElectric
+Motor.png  used on input line 507.
+(pdftex.def)             Requested size: 366.01854pt x 41.40479pt.
+<./imagenes/enumeracion IfcElectricMotorTypeEnum.png, id=412, 456.20438pt x 197
+.23688pt>
+File: ./imagenes/enumeracion IfcElectricMotorTypeEnum.png Graphic file (type pn
+g)
+<use ./imagenes/enumeracion IfcElectricMotorTypeEnum.png>
+Package pdftex.def Info: ./imagenes/enumeracion IfcElectricMotorTypeEnum.png  u
+sed on input line 508.
+(pdftex.def)             Requested size: 456.20325pt x 197.23637pt.
+
+Overfull \hbox (29.41191pt too wide) in paragraph at lines 506--509
+[] 
+ []
+
+[17 <./imagenes/ifcbuildingelement.png> <./imagenes/ifcenergyconversiondevice.p
+ng>]
+<./imagenes/atributo ObjectType.png, id=419, 408.77719pt x 52.69687pt>
+File: ./imagenes/atributo ObjectType.png Graphic file (type png)
+<use ./imagenes/atributo ObjectType.png>
+Package pdftex.def Info: ./imagenes/atributo ObjectType.png  used on input line
+ 511.
+(pdftex.def)             Requested size: 408.77618pt x 52.69673pt.
+
+Overfull \hbox (6.71489pt too wide) in paragraph at lines 517--521
+[][]$\OT1/cmtt/m/n/8 https : / / standards . buildingsmart . org / IFC / RELEAS
+E / IFC4 / ADD2 _ TC1 / HTML / link / ifcclassificationreference . htm$[][] 
+ []
+
+
+Overfull \hbox (10.96495pt too wide) in paragraph at lines 517--521
+[][]$\OT1/cmtt/m/n/8 https : / / standards . buildingsmart . org / IFC / RELEAS
+E / IFC4 / ADD2 _ TC1 / HTML / link / ifcrelassociatesclassification .
+ []
+
+
+Overfull \hbox (50.20476pt too wide) in paragraph at lines 544--546
+[][]$\OT1/cmtt/m/n/10 https : / / www . din . de / de / mitwirken / normenaussc
+huesse / nabau / veroeffentlichungen / wdc-[]beuth :
+ []
+
+[18 <./imagenes/atributo PredefinedType para un IfcElectricMotor.png> <./imagen
+es/enumeracion IfcElectricMotorTypeEnum.png> <./imagenes/atributo ObjectType.pn
+g>]
+Overfull \hbox (120.70421pt too wide) in paragraph at lines 547--549
+[][]$\OT1/cmtt/m/n/10 https : / / www . standard . no / fagomrader / bygg-[]anl
+egg-[]og-[]eiendom / ns-[]3420-[] / ns-[]3450-[]-[]-[]-[]ns-[]3451-[]-[]-[]ns-[
+]3459-[]2/$[][] 
+ []
+
+
+Overfull \hbox (109.95425pt too wide) in paragraph at lines 556--558
+[][]$\OT1/cmtt/m/n/10 https : / / molio . dk / produkter / digitale-[]vaerktoje
+r / gratis-[]vaerktojer / ccs-[]cuneco-[]classification-[]system$[][] 
+ []
+
+
+Overfull \hbox (10.95486pt too wide) in paragraph at lines 560--561
+[][]$\OT1/cmtt/m/n/10 https : / / buildingsmart . fi / wp-[]content / uploads /
+ 2019 / 12 / 20191021-[]Nordic-[]Study-[]S2 _ FINAL .
+ []
+
+
+Overfull \hbox (54.9545pt too wide) in paragraph at lines 566--568
+\OT1/cmtt/m/n/10 bimblog . bondbryan . co . uk / ifc-[]industry-[]foundation-[]
+classes-[]predefined-[]types-[]in-[]autodesk-[]revit/$[][] 
+ []
+
+
+Overfull \hbox (30.95468pt too wide) in paragraph at lines 576--577
+\OT1/cmtt/m/n/10 buildingsmart . org / IFC / RELEASE / IFC4 / ADD2 _ TC1 / HTML
+ / link / product-[]geometric-[]representation .
+ []
+
+
+Overfull \hbox (66.4548pt too wide) in paragraph at lines 588--589
+\OT1/cmtt/m/n/10 standards . buildingsmart . org / IFC / RELEASE / IFC4 / ADD2 
+_ TC1 / HTML / link / ifcmanifoldsolidbrep .
+ []
+
+
+Overfull \hbox (10.87622pt too wide) in paragraph at lines 589--590
+[]\OT1/cmr/m/n/10 definidos de for-ma implci-ta, ba-sa-dos en ba-rri-dos (Ifc
+S-wep-tA-rea-So-lid [][]$\OT1/cmtt/m/n/10 https : / / standards .
+ []
+
+
+Overfull \hbox (17.84416pt too wide) in paragraph at lines 589--590
+\OT1/cmtt/m/n/10 buildingsmart . org / IFC / RELEASE / IFC4 / ADD2 _ TC1 / HTML
+ / link / ifcsweptareasolid . htm$[][]\OT1/cmr/m/n/10 )
+ []
+
+
+Overfull \hbox (0.81712pt too wide) in paragraph at lines 592--595
+\OT1/cmr/m/n/10 (IfcBSplineCurve [][]$\OT1/cmtt/m/n/10 https : / / standards . 
+buildingsmart . org / IFC / RELEASE / IFC4 / ADD2 _ TC1 /
+ []
+
+
+Overfull \hbox (6.65048pt too wide) in paragraph at lines 592--595
+\OT1/cmr/m/n/10 (IfcBSplineSurface [][]$\OT1/cmtt/m/n/10 https : / / standards 
+. buildingsmart . org / IFC / RELEASE / IFC4 / ADD2 _ TC1 /
+ []
+
+[19] [20]
+Overfull \hbox (1.9645pt too wide) in paragraph at lines 659--665
+[][]$\OT1/cmtt/m/n/8 https : / / standards . buildingsmart . org / IFC / DEV / 
+IFC4 _ 3 / RC2 / HTML / link / ifcspatialstructureelement . htm$[][] 
+ []
+
+[21] [22]
+<./imagenes/web - Estandards - Organization - Rooms.png, id=502, 709.14937pt x 
+370.38374pt>
+File: ./imagenes/web - Estandards - Organization - Rooms.png Graphic file (type
+ png)
+<use ./imagenes/web - Estandards - Organization - Rooms.png>
+Package pdftex.def Info: ./imagenes/web - Estandards - Organization - Rooms.png
+  used on input line 701.
+(pdftex.def)             Requested size: 341.43436pt x 178.33037pt.
+<./imagenes/web - Events- Summits.png, id=503, 899.61093pt x 216.05719pt>
+File: ./imagenes/web - Events- Summits.png Graphic file (type png)
+<use ./imagenes/web - Events- Summits.png>
+Package pdftex.def Info: ./imagenes/web - Events- Summits.png  used on input li
+ne 702.
+(pdftex.def)             Requested size: 426.79134pt x 102.50294pt.
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 700--703
+[] 
+ []
+
+<./imagenes/web - Standards - Technical Site.png, id=505, 788.19469pt x 249.933
+75pt>
+File: ./imagenes/web - Standards - Technical Site.png Graphic file (type png)
+<use ./imagenes/web - Standards - Technical Site.png>
+Package pdftex.def Info: ./imagenes/web - Standards - Technical Site.png  used 
+on input line 706.
+(pdftex.def)             Requested size: 426.79134pt x 135.33214pt.
+<./imagenes/web - technical - Standards.png, id=507, 827.34094pt x 295.85532pt>
+
+File: ./imagenes/web - technical - Standards.png Graphic file (type png)
+<use ./imagenes/web - technical - Standards.png>
+Package pdftex.def Info: ./imagenes/web - technical - Standards.png  used on in
+put line 708.
+(pdftex.def)             Requested size: 426.79134pt x 152.62224pt.
+<./imagenes/web - Standards - Standards - libraries.png, id=508, 712.91344pt x 
+336.50719pt>
+File: ./imagenes/web - Standards - Standards - libraries.png Graphic file (type
+ png)
+<use ./imagenes/web - Standards - Standards - libraries.png>
+Package pdftex.def Info: ./imagenes/web - Standards - Standards - libraries.png
+  used on input line 709.
+(pdftex.def)             Requested size: 298.75262pt x 141.01369pt.
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 705--710
+[] 
+ []
+
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 705--710
+[] 
+ []
+
+[23 <./imagenes/web - Estandards - Organization - Rooms.png> <./imagenes/web - 
+Events- Summits.png> <./imagenes/web - Standards - Technical Site.png>]
+<./imagenes/web - User.png, id=516, 789.70032pt x 194.22563pt>
+File: ./imagenes/web - User.png Graphic file (type png)
+<use ./imagenes/web - User.png>
+Package pdftex.def Info: ./imagenes/web - User.png  used on input line 712.
+(pdftex.def)             Requested size: 426.79134pt x 104.96918pt.
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 711--716
+[] 
+ []
+
+<./imagenes/web - User - Services.png, id=518, 852.18375pt x 264.23718pt>
+File: ./imagenes/web - User - Services.png Graphic file (type png)
+<use ./imagenes/web - User - Services.png>
+Package pdftex.def Info: ./imagenes/web - User - Services.png  used on input li
+ne 718.
+(pdftex.def)             Requested size: 341.43436pt x 105.87039pt.
+<./imagenes/web - technical - Services.png, id=520, 830.35219pt x 388.45125pt>
+File: ./imagenes/web - technical - Services.png Graphic file (type png)
+<use ./imagenes/web - technical - Services.png>
+Package pdftex.def Info: ./imagenes/web - technical - Services.png  used on inp
+ut line 720.
+(pdftex.def)             Requested size: 426.79134pt x 199.66045pt.
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 717--721
+[] 
+ []
+
+[24 <./imagenes/web - technical - Standards.png> <./imagenes/web - Standards - 
+Standards - libraries.png> <./imagenes/web - User.png> <./imagenes/web - User -
+ Services.png>]
+<./imagenes/GitHub - pagina principal de buildingSMART.png, id=530, 785.18344pt
+ x 612.78937pt>
+File: ./imagenes/GitHub - pagina principal de buildingSMART.png Graphic file (t
+ype png)
+<use ./imagenes/GitHub - pagina principal de buildingSMART.png>
+Package pdftex.def Info: ./imagenes/GitHub - pagina principal de buildingSMART.
+png  used on input line 727.
+(pdftex.def)             Requested size: 426.79134pt x 333.08932pt.
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 725--728
+[] 
+ []
+
+<./imagenes/web - IFC SpecificationsDatabase.png, id=531, 826.58812pt x 691.081
+88pt>
+File: ./imagenes/web - IFC SpecificationsDatabase.png Graphic file (type png)
+<use ./imagenes/web - IFC SpecificationsDatabase.png>
+Package pdftex.def Info: ./imagenes/web - IFC SpecificationsDatabase.png  used 
+on input line 735.
+(pdftex.def)             Requested size: 405.45045pt x 338.99161pt.
+[25 <./imagenes/web - technical - Services.png> <./imagenes/GitHub - pagina pri
+ncipal de buildingSMART.png>]
+<./imagenes/IFC4 - Portada.png, id=540, 871.00406pt x 341.77687pt>
+File: ./imagenes/IFC4 - Portada.png Graphic file (type png)
+<use ./imagenes/IFC4 - Portada.png>
+Package pdftex.def Info: ./imagenes/IFC4 - Portada.png  used on input line 746.
+
+(pdftex.def)             Requested size: 426.79134pt x 167.4669pt.
+ [26 <./imagenes/web - IFC SpecificationsDatabase.png> <./imagenes/IFC4 - Porta
+da.png>]
+<./imagenes/IFC4 - truco - columna vertical de la izquierda.png, id=548, 738.50
+906pt x 508.14844pt>
+File: ./imagenes/IFC4 - truco - columna vertical de la izquierda.png Graphic fi
+le (type png)
+<use ./imagenes/IFC4 - truco - columna vertical de la izquierda.png>
+Package pdftex.def Info: ./imagenes/IFC4 - truco - columna vertical de la izqui
+erda.png  used on input line 758.
+(pdftex.def)             Requested size: 341.43436pt x 234.92967pt.
+<./imagenes/IFC4 - truco - link to this page.png, id=549, 337.26pt x 51.94406pt
+>
+File: ./imagenes/IFC4 - truco - link to this page.png Graphic file (type png)
+<use ./imagenes/IFC4 - truco - link to this page.png>
+Package pdftex.def Info: ./imagenes/IFC4 - truco - link to this page.png  used 
+on input line 769.
+(pdftex.def)             Requested size: 202.35756pt x 31.16666pt.
+<./imagenes/IFC4 - truco - usar la busqueda ctrl-f.png, id=550, 957.5775pt x 44
+8.67625pt>
+File: ./imagenes/IFC4 - truco - usar la busqueda ctrl-f.png Graphic file (type 
+png)
+<use ./imagenes/IFC4 - truco - usar la busqueda ctrl-f.png>
+Package pdftex.def Info: ./imagenes/IFC4 - truco - usar la busqueda ctrl-f.png 
+ used on input line 776.
+(pdftex.def)             Requested size: 426.79134pt x 199.9718pt.
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 776--777
+[][] 
+ []
+
+[27 <./imagenes/IFC4 - truco - columna vertical de la izquierda.png> <./imagene
+s/IFC4 - truco - link to this page.png>]
+<./imagenes/IFC4 - apartado 4 - Fundamental concepts and assumptions.png, id=55
+7, 587.94656pt x 377.91188pt>
+File: ./imagenes/IFC4 - apartado 4 - Fundamental concepts and assumptions.png G
+raphic file (type png)
+<use ./imagenes/IFC4 - apartado 4 - Fundamental concepts and assumptions.png>
+Package pdftex.def Info: ./imagenes/IFC4 - apartado 4 - Fundamental concepts an
+d assumptions.png  used on input line 800.
+(pdftex.def)             Requested size: 384.10959pt x 246.89113pt.
+ [28 <./imagenes/IFC4 - truco - usar la busqueda ctrl-f.png> <./imagenes/IFC4 -
+ apartado 4 - Fundamental concepts and assumptions.png>]
+<./imagenes/IFC4_layered_architecture.png, id=564, 421.575pt x 451.6875pt>
+File: ./imagenes/IFC4_layered_architecture.png Graphic file (type png)
+<use ./imagenes/IFC4_layered_architecture.png>
+Package pdftex.def Info: ./imagenes/IFC4_layered_architecture.png  used on inpu
+t line 811.
+(pdftex.def)             Requested size: 426.79134pt x 457.28284pt.
+ [29 <./imagenes/IFC4_layered_architecture.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 818--820
+
+ []
+
+<./imagenes/IFC4 - B - Alphabetical listings.png, id=570, 873.2625pt x 506.6428
+pt>
+File: ./imagenes/IFC4 - B - Alphabetical listings.png Graphic file (type png)
+<use ./imagenes/IFC4 - B - Alphabetical listings.png>
+Package pdftex.def Info: ./imagenes/IFC4 - B - Alphabetical listings.png  used 
+on input line 821.
+(pdftex.def)             Requested size: 426.79134pt x 247.60776pt.
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 821--822
+[][] 
+ []
+
+<./imagenes/IFC4 - C - Inheritance listings - Rooted entities.png, id=571, 880.
+79062pt x 371.88937pt>
+File: ./imagenes/IFC4 - C - Inheritance listings - Rooted entities.png Graphic 
+file (type png)
+<use ./imagenes/IFC4 - C - Inheritance listings - Rooted entities.png>
+Package pdftex.def Info: ./imagenes/IFC4 - C - Inheritance listings - Rooted en
+tities.png  used on input line 826.
+(pdftex.def)             Requested size: 426.79134pt x 180.20155pt.
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 825--827
+[] 
+ []
+
+<./imagenes/IFC4 - C - Inheritance listings - Object types.png, id=572, 883.049
+06pt x 374.14781pt>
+File: ./imagenes/IFC4 - C - Inheritance listings - Object types.png Graphic fil
+e (type png)
+<use ./imagenes/IFC4 - C - Inheritance listings - Object types.png>
+Package pdftex.def Info: ./imagenes/IFC4 - C - Inheritance listings - Object ty
+pes.png  used on input line 829.
+(pdftex.def)             Requested size: 384.10959pt x 162.74727pt.
+[30 <./imagenes/IFC4 - B - Alphabetical listings.png> <./imagenes/IFC4 - C - In
+heritance listings - Rooted entities.png>]
+<./imagenes/IFC4 - Index.png, id=580, 882.29625pt x 325.96782pt>
+File: ./imagenes/IFC4 - Index.png Graphic file (type png)
+<use ./imagenes/IFC4 - Index.png>
+Package pdftex.def Info: ./imagenes/IFC4 - Index.png  used on input line 832.
+(pdftex.def)             Requested size: 426.79134pt x 157.68137pt.
+
+Overfull \hbox (25.00003pt too wide) in paragraph at lines 831--833
+[] 
+ []
+
+<./imagenes/IFC4 - D - Schema Diagrams.png, id=581, 948.54375pt x 511.15968pt>
+File: ./imagenes/IFC4 - D - Schema Diagrams.png Graphic file (type png)
+<use ./imagenes/IFC4 - D - Schema Diagrams.png>
+Package pdftex.def Info: ./imagenes/IFC4 - D - Schema Diagrams.png  used on inp
+ut line 844.
+(pdftex.def)             Requested size: 426.79134pt x 229.98853pt.
+<./imagenes/IFC4 - D - Instance Diagrams.png, id=582, 1140.51094pt x 478.78876p
+t>
+File: ./imagenes/IFC4 - D - Instance Diagrams.png Graphic file (type png)
+<use ./imagenes/IFC4 - D - Instance Diagrams.png>
+Package pdftex.def Info: ./imagenes/IFC4 - D - Instance Diagrams.png  used on i
+nput line 848.
+(pdftex.def)             Requested size: 426.79134pt x 179.16544pt.
+[31 <./imagenes/IFC4 - C - Inheritance listings - Object types.png> <./imagenes
+/IFC4 - Index.png> <./imagenes/IFC4 - D - Schema Diagrams.png>]
+<./imagenes/IFC4 - D - Instance Diagrams - PSet to Door.png, id=591, 618.81187p
+t x 323.70938pt>
+File: ./imagenes/IFC4 - D - Instance Diagrams - PSet to Door.png Graphic file (
+type png)
+<use ./imagenes/IFC4 - D - Instance Diagrams - PSet to Door.png>
+Package pdftex.def Info: ./imagenes/IFC4 - D - Instance Diagrams - PSet to Door
+.png  used on input line 851.
+(pdftex.def)             Requested size: 426.79134pt x 223.2708pt.
+<./imagenes/IFC4 - E - Examples.png, id=592, 878.53218pt x 666.99188pt>
+File: ./imagenes/IFC4 - E - Examples.png Graphic file (type png)
+<use ./imagenes/IFC4 - E - Examples.png>
+Package pdftex.def Info: ./imagenes/IFC4 - E - Examples.png  used on input line
+ 861.
+(pdftex.def)             Requested size: 213.39566pt x 162.01503pt.
+ [32 <./imagenes/IFC4 - D - Instance Diagrams.png> <./imagenes/IFC4 - D - Insta
+nce Diagrams - PSet to Door.png> <./imagenes/IFC4 - E - Examples.png>]
+<./imagenes/IFC4 - F - Change logs.png, id=600, 956.82469pt x 426.84468pt>
+File: ./imagenes/IFC4 - F - Change logs.png Graphic file (type png)
+<use ./imagenes/IFC4 - F - Change logs.png>
+Package pdftex.def Info: ./imagenes/IFC4 - F - Change logs.png  used on input l
+ine 870.
+(pdftex.def)             Requested size: 426.79134pt x 190.39143pt.
+ [33 <./imagenes/IFC4 - F - Change logs.png>]
+<./imagenes/IFC2X3 - Portada.png, id=606, 685.05937pt x 300.3722pt>
+File: ./imagenes/IFC2X3 - Portada.png Graphic file (type png)
+<use ./imagenes/IFC2X3 - Portada.png>
+Package pdftex.def Info: ./imagenes/IFC2X3 - Portada.png  used on input line 93
+1.
+(pdftex.def)             Requested size: 426.79134pt x 187.13632pt.
+ [34 <./imagenes/IFC2X3 - Portada.png>]
+<./imagenes/ifcDOC en github.png, id=614, 925.95938pt x 582.67688pt>
+File: ./imagenes/ifcDOC en github.png Graphic file (type png)
+<use ./imagenes/ifcDOC en github.png>
+Package pdftex.def Info: ./imagenes/ifcDOC en github.png  used on input line 94
+6.
+(pdftex.def)             Requested size: 426.79134pt x 268.56807pt.
+<./imagenes/ifcDOC vs web - contenido ifcDOC.png, id=618, 207.02344pt x 314.675
+63pt>
+File: ./imagenes/ifcDOC vs web - contenido ifcDOC.png Graphic file (type png)
+<use ./imagenes/ifcDOC vs web - contenido ifcDOC.png>
+Package pdftex.def Info: ./imagenes/ifcDOC vs web - contenido ifcDOC.png  used 
+on input line 966.
+(pdftex.def)             Requested size: 186.31935pt x 283.20544pt.
+ [35 <./imagenes/ifcDOC en github.png>]
+<./imagenes/ifcDOC vs web - contenido web.png, id=624, 572.1375pt x 116.68594pt
+>
+File: ./imagenes/ifcDOC vs web - contenido web.png Graphic file (type png)
+<use ./imagenes/ifcDOC vs web - contenido web.png>
+Package pdftex.def Info: ./imagenes/ifcDOC vs web - contenido web.png  used on 
+input line 968.
+(pdftex.def)             Requested size: 469.47307pt x 95.74895pt.
+
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 968--971
+[][] 
+ []
+
+<./imagenes/ifcDOC vs web - diagrama esta en el fondo.png, id=625, 328.22626pt 
+x 274.77657pt>
+File: ./imagenes/ifcDOC vs web - diagrama esta en el fondo.png Graphic file (ty
+pe png)
+<use ./imagenes/ifcDOC vs web - diagrama esta en el fondo.png>
+Package pdftex.def Info: ./imagenes/ifcDOC vs web - diagrama esta en el fondo.p
+ng  used on input line 972.
+(pdftex.def)             Requested size: 131.28816pt x 109.90866pt.
+<./imagenes/ifcDOC vs web - diagrama.png, id=626, 461.47406pt x 495.35063pt>
+File: ./imagenes/ifcDOC vs web - diagrama.png Graphic file (type png)
+<use ./imagenes/ifcDOC vs web - diagrama.png>
+Package pdftex.def Info: ./imagenes/ifcDOC vs web - diagrama.png  used on input
+ line 974.
+(pdftex.def)             Requested size: 138.44327pt x 148.60634pt.
+<./imagenes/ifcDOC vs web - pantallazo ifcDOC.png, id=627, 720.44156pt x 704.63
+25pt>
+File: ./imagenes/ifcDOC vs web - pantallazo ifcDOC.png Graphic file (type png)
+<use ./imagenes/ifcDOC vs web - pantallazo ifcDOC.png>
+Package pdftex.def Info: ./imagenes/ifcDOC vs web - pantallazo ifcDOC.png  used
+ on input line 980.
+(pdftex.def)             Requested size: 426.79134pt x 417.41762pt.
+[36 <./imagenes/ifcDOC vs web - contenido ifcDOC.png> <./imagenes/ifcDOC vs web
+ - contenido web.png> <./imagenes/ifcDOC vs web - diagrama esta en el fondo.png
+> <./imagenes/ifcDOC vs web - diagrama.png>]
+<./imagenes/ifcDOC vs web - pantallazo web.png, id=636, 968.86969pt x 638.385pt
+>
+File: ./imagenes/ifcDOC vs web - pantallazo web.png Graphic file (type png)
+<use ./imagenes/ifcDOC vs web - pantallazo web.png>
+Package pdftex.def Info: ./imagenes/ifcDOC vs web - pantallazo web.png  used on
+ input line 982.
+(pdftex.def)             Requested size: 426.79134pt x 281.21172pt.
+ [37 <./imagenes/ifcDOC vs web - pantallazo ifcDOC.png> <./imagenes/ifcDOC vs w
+eb - pantallazo web.png>]
+Overfull \hbox (17.40654pt too wide) in paragraph at lines 997--1000
+[][][]$\OT1/cmtt/m/n/10 https : / / www . nist . gov / services-[]resources / s
+oftware / ifc-[]file-[]analyzer$[][] 
+ []
+
+[38] [39]
+<./imagenes/NextGen IFC5 roadmap.png, id=674, 1027.84pt x 322.20375pt>
+File: ./imagenes/NextGen IFC5 roadmap.png Graphic file (type png)
+<use ./imagenes/NextGen IFC5 roadmap.png>
+Package pdftex.def Info: ./imagenes/NextGen IFC5 roadmap.png  used on input lin
+e 1071.
+(pdftex.def)             Requested size: 426.79134pt x 133.79073pt.
+ [40 <./imagenes/NextGen IFC5 roadmap.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1141.
+ [41]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1141.
+
+(ApuntesDelCurso-OpenBIM-IFC-.aux
+LaTeX Info: Redefining \. on input line 25.
+LaTeX Info: Redefining \% on input line 25.
+Package cleveref Info: loaded `spanish' language definitions on input line 25.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1141.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1141.
+
+Package rerunfilecheck Info: File `ApuntesDelCurso-OpenBIM-IFC-.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: A4BB3DF9EEF0B5AC7B23E1A046CE97F1;4434.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1141.
+ ) 
+Here is how much of TeX's memory you used:
+ 10287 strings out of 481225
+ 172868 string characters out of 2915926
+ 485078 words of memory out of 3000000
+ 25565 multiletter control sequences out of 15000+200000
+ 545077 words of font info for 69 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 43i,12n,45p,651b,942s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\jmurua\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcr
+m1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C
+:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Fi
+les/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Program Files/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on ApuntesDelCurso-OpenBIM-IFC-.pdf (41 pages, 4622409 bytes).
+PDF statistics:
+ 766 PDF objects out of 1000 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
+ 556 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,346 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Prefacio}{11}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Introducción: información que puede contener un modelo IFC}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Estructuras espaciales y agrupaciones de entidades (IfcProject) (IfcSite) (IfcBuilding) (IfcWorkPlan) etc.}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Productos (IfcProduct)}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Recursos (IfcResource)}{14}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Procesos (IfcProcess)}{14}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Controles (IfcControl)}{14}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Actores (IfcActor)}{15}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Grupos (IfcGroup)}{15}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Un vistazo general a las entidades contempladas en las especificaciones IFC.}{15}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}sección `5. Core data schemas':}{16}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}sección `6. Shared element data schemas':}{17}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}sección `7. Domain specific data schemas':}{17}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}sección `8. Resource definition data schemas':}{18}{subsection.2.8.4}%
+\contentsline {subsection}{\numberline {2.8.5}Comentarios sobre las demás secciones de las especificaciones}{21}{subsection.2.8.5}%
+\contentsline {chapter}{\numberline {3}Introducción: estructura interna de la información en el modelo}{22}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Los ``\textbf {contenedores}'' de entidades}{22}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}contexto general}{22}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}contexto espacial}{23}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}contexto temporal}{24}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}contexto funcional}{26}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Las \textbf {entidades} (IfcXxxx) (IfcXxxxType)}{27}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Algunos ejemplos:}{27}{subsection.3.2.1}%
+\contentsline {subsubsection}{Una persona:}{27}{section*.2}%
+\contentsline {subsubsection}{Una materia prima:}{28}{section*.3}%
+\contentsline {subsubsection}{Un muro:}{28}{section*.4}%
+\contentsline {section}{\numberline {3.3}Los \textbf {atributos} de las entidades, información intrínseca a la entidad}{30}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Herencia de atributos}{31}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Las \textbf {propiedades} (PSet\_ ) y los \textbf {cuantificadores} (Qto\_ ), información adicional acerca de la entidad}{33}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Por ejemplo, para un muro:}{34}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}Las \textbf {relaciones} entre entidades}{36}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Posicionamiento relativo}{36}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Composición (IfcRelDeclares -- IfcRelDecomposes)}{36}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Asociación (IfcRelAssociates)}{38}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Asignación (IfcRelAssigns)}{38}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Conexión (IfcRelConnects)}{39}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Por ejemplo, para un muro:}{39}{subsection.3.5.6}%
+\contentsline {section}{\numberline {3.6}La \textbf {representación gráfica} de las entidades físicas}{40}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Representación de forma geométrica (IfcShapeRepresentation)}{41}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Representación de forma topológica (IfcTopologyRepresentation)}{42}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Por ejemplo, para representar un muro de forma geométrica:}{42}{subsection.3.6.3}%
+\contentsline {chapter}{\numberline {4}Introducción: algunos aspectos técnicos}{43}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Vistas, MVD (Model View Definition)}{43}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Formatos en que se puede escribir el modelo en un archivo}{43}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Objetos (IfcRoot--IfcObjectDefinition--IfcObject)}{45}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Herencia de atributos}{46}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Atributos inversos}{49}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Conjuntos de propiedades (PSet\_ ) y de cuantificadores (Qto\_ )}{52}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Relaciones (IfcRelationship)}{53}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Asociación (IfcRelAssociates)}{54}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Composición (IfcRelDeclares -- IfcRelDecomposes)}{54}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Asignación (IfcRelAssigns)}{55}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Conexión (IfcRelConnects)}{55}{subsection.4.5.4}%
+\contentsline {section}{\numberline {4.6}Ubicación en el espacio (IfcObjectPlacement)}{56}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Posición y Orientación (IfcPlacement)}{57}{subsection.4.6.1}%
+\contentsline {subsection}{\numberline {4.6.2}Entidades auxiliares:}{58}{subsection.4.6.2}%
+\contentsline {section}{\numberline {4.7}Representación grafica}{58}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Representación gráfica geométrica (IfcShapeRepresentation)}{59}{subsection.4.7.1}%
+\contentsline {subsubsection}{CoG: dibujando el centro de gravedad.}{59}{section*.5}%
+\contentsline {subsubsection}{Box: dibujando una caja mínima que contiene el objeto.}{59}{section*.6}%
+\contentsline {subsubsection}{Annotation: dibujando cotas, etiquetas, tramas,\ldots }{60}{section*.7}%
+\contentsline {subsubsection}{Axis: dibujando una trayectoria.}{60}{section*.8}%
+\contentsline {subsubsection}{FootPrint: dibujando una superfice proyectada.}{60}{section*.9}%
+\contentsline {subsubsection}{Profile: dibujando una sección}{60}{section*.10}%
+\contentsline {subsubsection}{\textbf {Surface}: dibujando una superficie.}{60}{section*.11}%
+\contentsline {subsubsection}{Reference: ocupación de un espacio, pero sin dibujarlo.}{60}{section*.12}%
+\contentsline {subsubsection}{\textbf {Body}: dibujando un cuerpo.}{60}{section*.13}%
+\contentsline {subsubsection}{Clearance: reservando un espacio libre alrededor de\ldots }{61}{section*.14}%
+\contentsline {subsubsection}{Lighting: espacio iluminado por lámparas y luminarias.}{61}{section*.15}%
+\contentsline {subsubsection}{Survey Points: para definir líneas de contorno del terreno.}{61}{section*.16}%
+\contentsline {subsubsection}{Mapped: para insertar instancias en distintas posiciones y orientaciones}{61}{section*.17}%
+\contentsline {subsection}{\numberline {4.7.2}Representación gráfica topológica (IfcTopologyRepresentation)}{61}{subsection.4.7.2}%
+\contentsline {subsubsection}{vértices}{61}{section*.18}%
+\contentsline {subsubsection}{aristas}{62}{section*.19}%
+\contentsline {subsubsection}{caras}{62}{section*.20}%
+\contentsline {subsubsection}{conjuntos}{62}{section*.21}%
+\contentsline {subsection}{\numberline {4.7.3}Traslación, rotación, escalado y simetria \\ (IfcCartesianTransformationOperator)}{62}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Estilos de presentación (IfcPresentationStyle)}{62}{subsection.4.7.4}%
+\contentsline {subsection}{\numberline {4.7.5}Texturas (IfcSurfaceTexture)}{63}{subsection.4.7.5}%
+\contentsline {subsection}{\numberline {4.7.6}Iluminación (IfcLightSource)}{63}{subsection.4.7.6}%
+\contentsline {chapter}{\numberline {5}Entidades base}{64}{chapter.5}%
+\contentsline {section}{\numberline {5.1}IfcRoot, la madre principal de la que derivan gran parte de todas las demás entidades}{64}{section.5.1}%
+\contentsline {section}{\numberline {5.2}IfcRelationship, la madre de las relaciones entre entidades}{65}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}IfcRelAssigns: enlaces genéricos entre objetos relacionados}{65}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}IfcRelAssociates: enlaces con fuentes de información}{66}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}IfcRelConnects: conexiones entre objetos unidos o relacionados entre sí de algún modo}{67}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}IfcRelDeclares: inclusión de objetos o propiedades dentro del modelo}{68}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}IfcRelDecomposes: desglose o despiece de objetos compuestos}{68}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}IfcRelDefines: relación de un objeto con tipos o con conjuntos de propiedades}{69}{subsection.5.2.6}%
+\contentsline {section}{\numberline {5.3}IfcObjectDefinition-IfcObject-IfcTypeObject, las madres de los objetos}{69}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Productos (IfcProduct)}{71}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Recursos (IfcResource, IfcConstructionResource)}{76}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5.3.3}Procesos (IfcProcess)}{77}{subsection.5.3.3}%
+\contentsline {subsection}{\numberline {5.3.4}Controles (IfcControl)}{79}{subsection.5.3.4}%
+\contentsline {subsection}{\numberline {5.3.5}Actores (IfcActor)}{80}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.6}Grupos (IfcGroup)}{82}{subsection.5.3.6}%
+\contentsline {section}{\numberline {5.4}IfcPropertyDefinition, la madre de las propiedades asociadas a los objetos}{84}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}IfcPropertySetDefinition, IfcPropertySet, IfcQuantitySet: conjuntos estandares de propiedades o cuantificadores}{84}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}IfcPropertyTemplateDefinition, IfcPropertySetTemplate, IfcPropertyTemplate: conjuntos definidos-por-el-usuario de propiedades o cuantificadores}{85}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}IfcRelAssociates: otras fuentes de información que aportan datos}{85}{subsection.5.4.3}%
+\contentsline {section}{\numberline {5.5}IfcContext}{85}{section.5.5}%
+\contentsline {section}{\numberline {5.6}IfcProject, el ``contenedor'' principal de todo el modelo}{86}{section.5.6}%
+\contentsline {section}{\numberline {5.7}apéndice: algunas entidades auxiliares}{88}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}IfcLabel, IfcIdentifier}{88}{subsection.5.7.1}%
+\contentsline {subsection}{\numberline {5.7.2}IfcXxxxSelect}{88}{subsection.5.7.2}%
+\contentsline {subsection}{\numberline {5.7.3}IfcProperty}{88}{subsection.5.7.3}%
+\contentsline {chapter}{\numberline {6}Entidades relativas a emplazamientos}{90}{chapter.6}%
+\contentsline {section}{\numberline {6.1}IfcSite, un ``contenedor'' principal}{90}{section.6.1}%
+\contentsline {section}{\numberline {6.2}IfcGeographicElement, elementos tales como terreno, árboles, estanques, fuentes, bancos, marquesinas,\ldots }{90}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Entidades relativas a edificios}{91}{chapter.7}%
+\contentsline {section}{\numberline {7.1}IfcBuilding, un ``contenedor'' principal}{91}{section.7.1}%
+\contentsline {section}{\numberline {7.2}IfcBuildingStorey, un ``contenedor'' secundario}{91}{section.7.2}%
+\contentsline {section}{\numberline {7.3}IfcBuildingSystem, una agrupación funcional}{91}{section.7.3}%
+\contentsline {section}{\numberline {7.4}IfcBuildingElement, la madre de la mayoria de los elementos relativos al edificio}{91}{section.7.4}%
+\contentsline {subsection}{\numberline {7.4.1}IfcBeam, vigas}{92}{subsection.7.4.1}%
+\contentsline {subsection}{\numberline {7.4.2}IfcChimney, chimeneas}{92}{subsection.7.4.2}%
+\contentsline {subsection}{\numberline {7.4.3}IfcColumn, columnas}{92}{subsection.7.4.3}%
+\contentsline {subsection}{\numberline {7.4.4}IfcCovering, acabados}{92}{subsection.7.4.4}%
+\contentsline {subsection}{\numberline {7.4.5}IfcCurtainWall, muros cortina}{93}{subsection.7.4.5}%
+\contentsline {subsection}{\numberline {7.4.6}IfcDoor, puertas}{93}{subsection.7.4.6}%
+\contentsline {subsection}{\numberline {7.4.7}IfcFooting, elementos de cimentación}{94}{subsection.7.4.7}%
+\contentsline {subsection}{\numberline {7.4.8}IfcMember, elementos para distribución de cargas}{94}{subsection.7.4.8}%
+\contentsline {subsection}{\numberline {7.4.9}IfcPile, pilotes de cimentación}{95}{subsection.7.4.9}%
+\contentsline {subsection}{\numberline {7.4.10}IfcPlate, rigidizadores}{95}{subsection.7.4.10}%
+\contentsline {subsection}{\numberline {7.4.11}IfcRailing, barandillas}{95}{subsection.7.4.11}%
+\contentsline {subsection}{\numberline {7.4.12}IfcRampFlight, tramos de rampa}{95}{subsection.7.4.12}%
+\contentsline {subsection}{\numberline {7.4.13}IfcRamp, rampas}{96}{subsection.7.4.13}%
+\contentsline {subsection}{\numberline {7.4.14}IfcShadingDevice, parasoles}{96}{subsection.7.4.14}%
+\contentsline {subsection}{\numberline {7.4.15}IfcRoof, techos}{97}{subsection.7.4.15}%
+\contentsline {subsection}{\numberline {7.4.16}IfcSlab, forjados}{99}{subsection.7.4.16}%
+\contentsline {subsection}{\numberline {7.4.17}IfcStairFlight, tramos de escalera}{100}{subsection.7.4.17}%
+\contentsline {subsection}{\numberline {7.4.18}IfcStair, escaleras}{100}{subsection.7.4.18}%
+\contentsline {subsection}{\numberline {7.4.19}IfcWall, muros}{102}{subsection.7.4.19}%
+\contentsline {subsubsection}{IfcWallElementedCase}{103}{section*.22}%
+\contentsline {subsubsection}{IfcWallStandardCase}{103}{section*.23}%
+\contentsline {subsection}{\numberline {7.4.20}IfcWindow, ventanas}{103}{subsection.7.4.20}%
+\contentsline {subsection}{\numberline {7.4.21}IfcBuildingElementProxy, elemento comodín que no es ninguno de los anteriores}{104}{subsection.7.4.21}%
+\contentsline {section}{\numberline {7.5}IfcElementAssembly, agregaciones complejas de elementos}{104}{section.7.5}%
+\contentsline {section}{\numberline {7.6}IfcElementComponent, elementos auxiliares}{104}{section.7.6}%
+\contentsline {section}{\numberline {7.7}IfcFeatureElement, accesorios que modifican la forma de otro elemento}{104}{section.7.7}%
+\contentsline {section}{\numberline {7.8}IfcFurnisingElement, elementos muebles}{104}{section.7.8}%
+\contentsline {subsection}{\numberline {7.8.1}IfcFurniture, mobiliario}{105}{subsection.7.8.1}%
+\contentsline {subsection}{\numberline {7.8.2}IfcSystemFurnitureElement, partes de un mobiliario modular}{105}{subsection.7.8.2}%
+\contentsline {section}{\numberline {7.9}IfcTransportElement, escaleras mecánicas,ascensores,\ldots }{105}{section.7.9}%
+\contentsline {section}{\numberline {7.10}IfcVirtualElement, divisiones virtuales de espacios físicos diáfanos}{105}{section.7.10}%
+\contentsline {chapter}{\numberline {8}Entidades relativas a instalaciones}{106}{chapter.8}%
+\contentsline {section}{\numberline {8.1}IfcDistributionSystem, una agrupación funcional}{106}{section.8.1}%
+\contentsline {section}{\numberline {8.2}IfcDistributionCircuit, una agrupación funcional secundaria}{106}{section.8.2}%
+\contentsline {section}{\numberline {8.3}IfcDistributionElement, la madre de la mayoria de los elementos relativos a instalaciones}{106}{section.8.3}%
+\contentsline {section}{\numberline {8.4}IfcDistributionControlElement, la madre de los elementos para monitorización y control del funcionamiento de las instalaciones.}{107}{section.8.4}%
+\contentsline {subsection}{\numberline {8.4.1}IfcActuator, dispositivos de manejo}{108}{subsection.8.4.1}%
+\contentsline {subsection}{\numberline {8.4.2}IfcAlarm, dispositivos de aviso}{108}{subsection.8.4.2}%
+\contentsline {subsection}{\numberline {8.4.3}IfcController, dispositivos de regulación}{108}{subsection.8.4.3}%
+\contentsline {subsection}{\numberline {8.4.4}IfcFlowInstrument, dispositivos de medición}{108}{subsection.8.4.4}%
+\contentsline {subsection}{\numberline {8.4.5}IfcProtectiveDeviceTrippintUnit, dispositivos de protección}{109}{subsection.8.4.5}%
+\contentsline {subsection}{\numberline {8.4.6}IfcSensor, sensores}{109}{subsection.8.4.6}%
+\contentsline {subsection}{\numberline {8.4.7}IfcUnitaryControlElement, agrupación de diversos dispositivos para un fin concreto}{109}{subsection.8.4.7}%
+\contentsline {section}{\numberline {8.5}IfcDistributionFlowElement, la madre de los elementos para transporte, manejo y uso de los fluidos: electricidad, agua, aire,\ldots que circulan por las instalaciones.}{109}{section.8.5}%
+\contentsline {subsection}{\numberline {8.5.1}IfcDistributionChamberElement, espacios desde los que inspeccionar la instalación}{110}{subsection.8.5.1}%
+\contentsline {subsection}{\numberline {8.5.2}IfcEnergyConversionDevice, conversores de una forma a otra de energia}{110}{subsection.8.5.2}%
+\contentsline {subsection}{\numberline {8.5.3}IfcFlowController, elementos de regulación, protección y control}{110}{subsection.8.5.3}%
+\contentsline {subsection}{\numberline {8.5.4}IfcFlowFitting, elementos de acoplamiento entre tramos de conducción}{110}{subsection.8.5.4}%
+\contentsline {subsection}{\numberline {8.5.5}IfcFlowMovingDevice, elementos de impulsión}{110}{subsection.8.5.5}%
+\contentsline {subsection}{\numberline {8.5.6}IfcFlowSegment, tramos (rectos) de conducción}{110}{subsection.8.5.6}%
+\contentsline {subsection}{\numberline {8.5.7}IfcFlowStorageDevice, elementos de almacenamiento}{111}{subsection.8.5.7}%
+\contentsline {subsection}{\numberline {8.5.8}IfcFlowTerminal, elementos finales conectados a la instalación}{111}{subsection.8.5.8}%
+\contentsline {subsection}{\numberline {8.5.9}IfcTreatmentDevice, elementos para acondicionar el fluido transportado}{111}{subsection.8.5.9}%
+\contentsline {chapter}{\numberline {9}Entidades relativas a infraestructuras civiles}{112}{chapter.9}%
+\contentsline {section}{\numberline {9.1}IfcBridge, un ``contenedor'' principal}{112}{section.9.1}%
+\contentsline {section}{\numberline {9.2}IfcRoad, un ``contenedor'' principal}{112}{section.9.2}%
+\contentsline {section}{\numberline {9.3}IfcRailway, un ``contenedor'' principal}{112}{section.9.3}%
+\contentsline {section}{\numberline {9.4}IfcMarineFacility, un ``contenedor'' principal}{113}{section.9.4}%
+\contentsline {section}{\numberline {9.5}IfcGeotechnicalElement, la madre de los elementos relacionados con la geotécnia}{113}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}IfcGeotechnicalAssembly, conjuntos de elementos que forman un modelo geotécnico.}{113}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.2}IfcBorehole, representacion de una cata sobre el terreno}{113}{subsection.9.5.2}%
+\contentsline {subsection}{\numberline {9.5.3}IfcGeomodel, representación volumétrica de una sección del terreno}{113}{subsection.9.5.3}%
+\contentsline {subsection}{\numberline {9.5.4}IfcGeoslice, representación de un corte del terreno}{113}{subsection.9.5.4}%
+\contentsline {subsection}{\numberline {9.5.5}IfcGeotechnicalStratum, capas dentro de un modelo geotécnico.}{113}{subsection.9.5.5}%
+\contentsline {subsection}{\numberline {9.5.6}IfcSolidStratum, capa sólida}{114}{subsection.9.5.6}%
+\contentsline {subsection}{\numberline {9.5.7}IfcVoidStratum, hueco lleno de gas}{114}{subsection.9.5.7}%
+\contentsline {subsection}{\numberline {9.5.8}IfcWaterStratum, capa líquida}{114}{subsection.9.5.8}%
+\contentsline {section}{\numberline {9.6}IfcBuiltElement, la madre de la mayoria de los elementos relativos a una construcción.}{114}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}IfcBearing, apoyos y articulaciones}{115}{subsection.9.6.1}%
+\contentsline {subsection}{\numberline {9.6.2}IfcCourse, capas constructivas en un trazado}{115}{subsection.9.6.2}%
+\contentsline {subsection}{\numberline {9.6.3}IfcDeepFoundation}{115}{subsection.9.6.3}%
+\contentsline {subsection}{\numberline {9.6.4}IfcEarthworksElement, trazados creados mediante movimientos de tierra}{116}{subsection.9.6.4}%
+\contentsline {subsection}{\numberline {9.6.5}IfcKerb, bordillos}{116}{subsection.9.6.5}%
+\contentsline {subsection}{\numberline {9.6.6}IfcMooringDevice, amarres}{116}{subsection.9.6.6}%
+\contentsline {subsection}{\numberline {9.6.7}IfcNavigationElement, faros y boyas}{116}{subsection.9.6.7}%
+\contentsline {subsection}{\numberline {9.6.8}IfcPavement, pavimentos}{116}{subsection.9.6.8}%
+\contentsline {subsection}{\numberline {9.6.9}IfcRail, vias, trazados ferroviarios}{116}{subsection.9.6.9}%
+\contentsline {subsection}{\numberline {9.6.10}IfcTrackElement, elementos ferroviarios}{117}{subsection.9.6.10}%
+\contentsline {chapter}{\numberline {10}Entidades relativas a gestión administrativa}{118}{chapter.10}%
+\contentsline {section}{\numberline {10.1}IfcResource, la madre de los elementos que dan un servicio, se utilizan o se consumen}{118}{section.10.1}%
+\contentsline {subsection}{\numberline {10.1.1}IfcConstructionEquipmentResource, maquinaria y equipos de construccion}{118}{subsection.10.1.1}%
+\contentsline {subsection}{\numberline {10.1.2}IfcConstructionMaterialResource, materias primas}{118}{subsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.1.3}IfcConstructionProductResource, ensamblados auxiliares}{119}{subsection.10.1.3}%
+\contentsline {subsection}{\numberline {10.1.4}IfcLaborResource, oficios necesarios para ciertos tipos de tareas}{119}{subsection.10.1.4}%
+\contentsline {subsection}{\numberline {10.1.5}IfcCrewResource, recursos propios}{120}{subsection.10.1.5}%
+\contentsline {subsection}{\numberline {10.1.6}IfcSubContractResource, recursos subcontratados}{120}{subsection.10.1.6}%
+\contentsline {section}{\numberline {10.2}IfcActor, la madre de organizaciones y personas}{120}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}IfcOrganization}{120}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}IfcPerson}{121}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}IfcPersonAndOrganization}{121}{subsection.10.2.3}%
+\contentsline {section}{\numberline {10.3}IfcProcess, la madre de los elementos que suceden o se planifican}{121}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}IfcEvent, sucesos}{121}{subsection.10.3.1}%
+\contentsline {subsection}{\numberline {10.3.2}IfcTask, tareas}{121}{subsection.10.3.2}%
+\contentsline {subsection}{\numberline {10.3.3}IfcProcedure, procesos}{122}{subsection.10.3.3}%
+\contentsline {section}{\numberline {10.4}IfcControl, la madre de los elementos que permiten, especifican o planifican algo}{123}{section.10.4}%
+\contentsline {subsection}{\numberline {10.4.1}IfcActionRequest, peticiones}{123}{subsection.10.4.1}%
+\contentsline {subsection}{\numberline {10.4.2}IfcCostItem, elementos de coste}{123}{subsection.10.4.2}%
+\contentsline {subsection}{\numberline {10.4.3}IfcCostSchedule, presupuestos}{124}{subsection.10.4.3}%
+\contentsline {subsection}{\numberline {10.4.4}IfcPerformanceHistory, partes de trabajo}{124}{subsection.10.4.4}%
+\contentsline {subsection}{\numberline {10.4.5}IfcPermit, autorizaciones}{125}{subsection.10.4.5}%
+\contentsline {subsection}{\numberline {10.4.6}IfcProjectOrder, contratos}{125}{subsection.10.4.6}%
+\contentsline {subsection}{\numberline {10.4.7}IfcWorkCalendar, calendarios laborales}{126}{subsection.10.4.7}%
+\contentsline {subsection}{\numberline {10.4.8}IfcWorkControl, planificaciones de trabajos}{126}{subsection.10.4.8}%
+\contentsline {subsubsection}{IfcWorkPlan}{127}{section*.24}%
+\contentsline {subsubsection}{IfcWorkSchedule}{127}{section*.25}%
+\contentsline {section}{\numberline {10.5}IfcInventory, agrupaciones de elementos a contar o a valorar}{127}{section.10.5}%
+\contentsline {chapter}{\numberline {11}Entidades relativas a cálculo estructural}{128}{chapter.11}%
+\contentsline {section}{\numberline {11.1}IfcStructuralAnalysisModel, un ``contenedor'' principal}{128}{section.11.1}%
+\contentsline {section}{\numberline {11.2}IfcStructuralLoadGroup, una agrupación funcional}{128}{section.11.2}%
+\contentsline {section}{\numberline {11.3}IfcStructuralResultGroup, una agrupación funcional}{128}{section.11.3}%
+\contentsline {section}{\numberline {11.4}IfcStructuralItem, la madre de los elementos estructurales}{128}{section.11.4}%
+\contentsline {subsection}{\numberline {11.4.1}IfcStructuralMember, curvas o superficies analíticas que respresentan elementos estructurales}{129}{subsection.11.4.1}%
+\contentsline {subsubsection}{IfcStructuralCurveMember}{129}{section*.26}%
+\contentsline {subsubsection}{IfcStructuralSurfaceMember}{129}{section*.27}%
+\contentsline {subsection}{\numberline {11.4.2}IfcStructuralConnection, restricciones y apoyos}{129}{subsection.11.4.2}%
+\contentsline {subsubsection}{IfcStructuralPointConnection}{129}{section*.28}%
+\contentsline {subsubsection}{IfcStructuralCurveConnection}{130}{section*.29}%
+\contentsline {subsubsection}{IfcStructuralSurfaceConnection}{130}{section*.30}%
+\contentsline {section}{\numberline {11.5}IfcStructuralActivity, la madre de las fuerzas, desplazamientos, reacciones,\ldots }{130}{section.11.5}%
+\contentsline {subsection}{\numberline {11.5.1}IfcStructuralAction, cargas aplicadas}{130}{subsection.11.5.1}%
+\contentsline {subsubsection}{IfcStructuralPointAction}{131}{section*.31}%
+\contentsline {subsubsection}{IfcStructuralCurveAction}{131}{section*.32}%
+\contentsline {subsubsection}{IfcStructuralSurfaceAction}{131}{section*.33}%
+\contentsline {subsection}{\numberline {11.5.2}IfcStructuralReaction, reacciones resultantes}{131}{subsection.11.5.2}%
+\contentsline {subsubsection}{IfcStructuralPointReaction}{131}{section*.34}%
+\contentsline {subsubsection}{IfcStructuralCurveReaction}{131}{section*.35}%
+\contentsline {subsubsection}{IfcStructuralSurfaceReaction}{131}{section*.36}%
+\contentsline {chapter}{\numberline {12}Entidades para representación gráfica geométrica}{132}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Puntos y nubes de puntos}{133}{section.12.1}%
+\contentsline {subsection}{\numberline {12.1.1}IfcPoint}{133}{subsection.12.1.1}%
+\contentsline {subsubsection}{IfcCartesianPoint}{134}{section*.37}%
+\contentsline {subsubsection}{IfcPointOnCurve}{134}{section*.38}%
+\contentsline {subsubsection}{IfcPointOnSurface}{134}{section*.39}%
+\contentsline {subsubsection}{IfcConnectionPointGeometry}{134}{section*.40}%
+\contentsline {subsubsection}{IfcConnectionPointEccentricity}{134}{section*.41}%
+\contentsline {subsection}{\numberline {12.1.2}IfcCartesianPointList}{134}{subsection.12.1.2}%
+\contentsline {subsubsection}{IfcCartesianPointList2D}{135}{section*.42}%
+\contentsline {subsubsection}{IfcCartesianPointList3D}{135}{section*.43}%
+\contentsline {section}{\numberline {12.2}Curvas (IfcCurve), líneas}{135}{section.12.2}%
+\contentsline {subsection}{\numberline {12.2.1}IfcBoundedCurve}{135}{subsection.12.2.1}%
+\contentsline {subsubsection}{IfcAlignmentCurve}{135}{section*.44}%
+\contentsline {subsubsection}{IfcBSplineCurve}{135}{section*.45}%
+\contentsline {subsubsection}{IfcCompositeCurve}{136}{section*.46}%
+\contentsline {subsubsection}{IfcCurveSegment2D}{136}{section*.47}%
+\contentsline {subsubsection}{IfcIndexedPolyCurve}{136}{section*.48}%
+\contentsline {subsubsection}{IfcPolyline}{136}{section*.49}%
+\contentsline {subsubsection}{IfcTrimmedCurve}{136}{section*.50}%
+\contentsline {subsection}{\numberline {12.2.2}IfcConic}{136}{subsection.12.2.2}%
+\contentsline {subsubsection}{IfcCircle}{136}{section*.51}%
+\contentsline {subsubsection}{IfcEllipse}{136}{section*.52}%
+\contentsline {subsection}{\numberline {12.2.3}IfcLine}{137}{subsection.12.2.3}%
+\contentsline {subsection}{\numberline {12.2.4}IfcOffsetCurve}{137}{subsection.12.2.4}%
+\contentsline {subsubsection}{IfcOffsetCurve2D}{137}{section*.53}%
+\contentsline {subsubsection}{IfcOffsetCurve3D}{137}{section*.54}%
+\contentsline {subsubsection}{IfcOffsetCurveByDistances}{137}{section*.55}%
+\contentsline {subsection}{\numberline {12.2.5}IfcPcurve}{137}{subsection.12.2.5}%
+\contentsline {subsection}{\numberline {12.2.6}IfcSurfaceCurve}{137}{subsection.12.2.6}%
+\contentsline {subsubsection}{IfcIntersectionCurve}{137}{section*.56}%
+\contentsline {subsubsection}{IfcSeamCurve}{138}{section*.57}%
+\contentsline {section}{\numberline {12.3}Superficies (IfcSurface)}{138}{section.12.3}%
+\contentsline {subsection}{\numberline {12.3.1}IfcBoundedSurface}{138}{subsection.12.3.1}%
+\contentsline {subsubsection}{IfcBSplineSurface}{138}{section*.58}%
+\contentsline {subsubsection}{IfcCurveBoundedPlane}{138}{section*.59}%
+\contentsline {subsubsection}{IfcCurveBoundedSurface}{138}{section*.60}%
+\contentsline {subsubsection}{IfcRectangularTrimmedSurface}{139}{section*.61}%
+\contentsline {subsection}{\numberline {12.3.2}IfcElementarySurface}{139}{subsection.12.3.2}%
+\contentsline {subsubsection}{IfcCylindricalSurface}{139}{section*.62}%
+\contentsline {subsubsection}{IfcPlane}{139}{section*.63}%
+\contentsline {subsubsection}{IfcSphericalSurface}{139}{section*.64}%
+\contentsline {subsubsection}{IfcToroidalSurface}{139}{section*.65}%
+\contentsline {subsection}{\numberline {12.3.3}IfcSweptSurface}{139}{subsection.12.3.3}%
+\contentsline {subsubsection}{IfcSurfaceOfLinearExtrusion}{139}{section*.66}%
+\contentsline {subsubsection}{IfcSurfaceOfRevolution}{140}{section*.67}%
+\contentsline {section}{\numberline {12.4}Volúmenes (IfcSolidModel)}{140}{section.12.4}%
+\contentsline {subsection}{\numberline {12.4.1}IfcCsqSolid}{140}{subsection.12.4.1}%
+\contentsline {subsubsection}{sólidos elementales}{140}{section*.68}%
+\contentsline {subsubsection}{otros sólidos o superficies}{140}{section*.69}%
+\contentsline {subsection}{\numberline {12.4.2}IfcManifoldSolidBrep}{141}{subsection.12.4.2}%
+\contentsline {subsubsection}{IfcFacetedBrep}{141}{section*.70}%
+\contentsline {subsubsection}{IfcAdvancedBrep}{141}{section*.71}%
+\contentsline {subsection}{\numberline {12.4.3}IfcSectionedSolid}{141}{subsection.12.4.3}%
+\contentsline {subsubsection}{IfcSectionedSolidHorizontal}{141}{section*.72}%
+\contentsline {subsection}{\numberline {12.4.4}IfcSweptAreaSolid}{141}{subsection.12.4.4}%
+\contentsline {subsubsection}{IfcExtrudedAreaSolid}{142}{section*.73}%
+\contentsline {subsubsection}{IfcRevolvedAreaSolid}{142}{section*.74}%
+\contentsline {subsubsection}{IfcSurfaceCurveSweptAreaSolid}{142}{section*.75}%
+\contentsline {subsubsection}{IfcSweptDiskSolid}{142}{section*.76}%
+\contentsline {subsubsection}{IfcFixedReferenceSweptAreaSolid}{142}{section*.77}%
+\contentsline {section}{\numberline {12.5}SectionedSpine}{142}{section.12.5}%
+\contentsline {section}{\numberline {12.6}BoundingBox}{142}{section.12.6}%
+\contentsline {section}{\numberline {12.7}MappedRepresentation}{143}{section.12.7}%
+\contentsline {section}{\numberline {12.8}Anotaciones}{143}{section.12.8}%
+\contentsline {subsection}{\numberline {12.8.1}Textos (IfcTextLiteral)}{143}{subsection.12.8.1}%
+\contentsline {subsection}{\numberline {12.8.2}Areas ralladas (IfcAnnotationFillArea)}{143}{subsection.12.8.2}%
+\contentsline {subsection}{\numberline {12.8.3}Cotas, detalles, símbolos y otros gráficos explicativos}{143}{subsection.12.8.3}%
+\contentsline {chapter}{\numberline {13}entidades para representación gráfica topológica}{144}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Vértices (IfcVertex)}{144}{section.13.1}%
+\contentsline {section}{\numberline {13.2}Aristas (IfcEdge) (IfcOrientedEdge)}{144}{section.13.2}%
+\contentsline {section}{\numberline {13.3}Caminos (IfcPath) (IfcLoop)}{145}{section.13.3}%
+\contentsline {section}{\numberline {13.4}Caras (IfcFace) (IfcFaceBound)}{145}{section.13.4}%
+\contentsline {section}{\numberline {13.5}Conjuntos (IfcConnectedFaceSet) (IfcShell)}{145}{section.13.5}%
+\contentsline {chapter}{\numberline {14}apéndice A: Algunas referencias de herramientas}{146}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Visores:}{146}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Utilidades:}{147}{section.14.2}%
+\contentsline {section}{\numberline {14.3}Plataformas para federación, verificación de modelos y coordinación}{148}{section.14.3}%
+\contentsline {section}{\numberline {14.4}Bibliotecas de programación y ejemplos:}{148}{section.14.4}%
+\contentsline {section}{\numberline {14.5}Bibliotecas de programación comerciales}{148}{section.14.5}%
+\contentsline {section}{\numberline {14.6}Bibliotecas de representación gráfica}{149}{section.14.6}%
+\contentsline {section}{\numberline {14.7}Otras bibliotecas interesantes}{149}{section.14.7}%
+\contentsline {section}{\numberline {14.8}Fuentes de información}{149}{section.14.8}%
+\contentsline {section}{\numberline {14.9}Trabajando modelos IFC con Revit}{149}{section.14.9}%
+\contentsline {subsection}{\numberline {14.9.1}Necesidad de un plug-in externo}{150}{subsection.14.9.1}%
+\contentsline {subsection}{\numberline {14.9.2}El proceso de importación}{151}{subsection.14.9.2}%
+\contentsline {subsection}{\numberline {14.9.3}El proceso de exportación}{151}{subsection.14.9.3}%
+\contentsline {subsection}{\numberline {14.9.4}Parámetros relacionados con la exportación}{154}{subsection.14.9.4}%
+\contentsline {subsection}{\numberline {14.9.5}Parámetos relacionados con clasificaciones para partidas presupuestarias}{156}{subsection.14.9.5}%
+\contentsline {subsubsection}{Ommiclass}{156}{section*.79}%
+\contentsline {subsubsection}{MasterFormat}{156}{section*.80}%
+\contentsline {subsubsection}{UniFormat}{157}{section*.81}%
+\contentsline {section}{\numberline {14.10}Trabajando modelos IFC con otros softwares de modelado}{158}{section.14.10}%
+\contentsline {subsection}{\numberline {14.10.1}Archicad}{159}{subsection.14.10.1}%
+\contentsline {subsection}{\numberline {14.10.2}Edificius}{159}{subsection.14.10.2}%
+\contentsline {subsection}{\numberline {14.10.3}Tekla}{159}{subsection.14.10.3}%
+\contentsline {subsection}{\numberline {14.10.4}Bentley}{159}{subsection.14.10.4}%
+\contentsline {subsection}{\numberline {14.10.5}Allplan}{159}{subsection.14.10.5}%
+\contentsline {subsection}{\numberline {14.10.6}VectorWorks}{159}{subsection.14.10.6}%
+\contentsline {subsection}{\numberline {14.10.7}DDS CAD}{160}{subsection.14.10.7}%
+\contentsline {subsection}{\numberline {14.10.8}Cipe}{160}{subsection.14.10.8}%
+\contentsline {subsection}{\numberline {14.10.9}Renga}{160}{subsection.14.10.9}%
+\contentsline {subsection}{\numberline {14.10.10}Blender}{160}{subsection.14.10.10}%
+\contentsline {subsection}{\numberline {14.10.11}FreeCAD}{160}{subsection.14.10.11}%

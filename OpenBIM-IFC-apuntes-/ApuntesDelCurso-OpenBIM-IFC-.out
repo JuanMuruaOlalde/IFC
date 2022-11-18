@@ -1,0 +1,40 @@
+\BOOKMARK [1][-]{section.1}{Introducci\363n a openBIM \040y a los est\341ndares abiertos de buildingSMART}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{IDM, Information Delivery Manuals}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{UCMS, Use Case Management Service}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{MIDS, Machine readable Information Delivery Specification}{subsection.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.2}{IFC, Industry Foundation Classes}{section.1}% 5
+\BOOKMARK [3][-]{subsubsection.1.2.1}{MVD, Model View Definitions}{subsection.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.3}{bSDD, buildingSmart Data Dictionary}{section.1}% 7
+\BOOKMARK [2][-]{subsection.1.4}{BCF, BIM Collaboration Format}{section.1}% 8
+\BOOKMARK [2][-]{subsection.1.5}{Otros estandares en la esfera de buildingSmart}{section.1}% 9
+\BOOKMARK [1][-]{section.2}{Definiciones de procesos e intercambios de informaci\363n seg\372n casos de uso: IDM. Flujos de trabajo openBIM y MVDs vigentes. \(Para el dominio de edificaci\363n\)}{}% 10
+\BOOKMARK [2][-]{subsection.2.1}{IDM, Information Delivery Manual}{section.2}% 11
+\BOOKMARK [2][-]{subsection.2.2}{MVD, Model View Definition}{section.2}% 12
+\BOOKMARK [1][-]{section.3}{Comprensi\363n del esquema \(I\): Building Domain}{}% 13
+\BOOKMARK [2][-]{subsection.3.1}{Aspectos t\351cnicos del esquema IFC}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.2}{C\363mo se estructura el esquema IFC}{section.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Clases y atributos \(informaci\363n b\341sica\)}{subsection.3.2}% 16
+\BOOKMARK [3][-]{subsubsection.3.2.2}{IfcRoot, la clase de la que derivan casi todas las dem\341s clases}{subsection.3.2}% 17
+\BOOKMARK [3][-]{subsubsection.3.2.3}{IfcObject, la clase de las que derivan las clases ``tangibles''}{subsection.3.2}% 18
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Conjuntos de Propiedades \(c\363mo se inserta informaci\363n\)}{subsection.3.2}% 19
+\BOOKMARK [3][-]{subsubsection.3.2.5}{Relaciones entre entidades \(c\363mo se arma el modelo IFC y toda la informaci\363n que contiene\)}{subsection.3.2}% 20
+\BOOKMARK [2][-]{subsection.3.3}{Unas notas sobre clasificaci\363n de entidades}{section.3}% 21
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Por sub-tipado de clase}{subsection.3.3}% 22
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Por enumeraci\363n de tipo}{subsection.3.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Por referencia a un sistema de clasificaci\363n externo}{subsection.3.3}% 24
+\BOOKMARK [2][-]{subsection.3.4}{Unas notas sobre representaci\363n geom\351trica}{section.3}% 25
+\BOOKMARK [1][-]{section.4}{Comprensi\363n del esquema \(II\): Infrastructure Domains, hasta IFC 4.3 RC3}{}% 26
+\BOOKMARK [2][-]{subsection.4.1}{\277C\363mo desarrolla buildingSMART sus estandares?}{section.4}% 27
+\BOOKMARK [2][-]{subsection.4.2}{Los nuevos dominios de infraestructura que se incorporar\341n en la futura versi\363n 4.3 \277o ser\341 5?}{section.4}% 28
+\BOOKMARK [1][-]{section.5}{Comprensi\363n \(III\) a trav\351s de los recursos web de bSI}{}% 29
+\BOOKMARK [2][-]{subsection.5.1}{Repaso general a la web y a los recursos presentes en ella}{section.5}% 30
+\BOOKMARK [2][-]{subsection.5.2}{Repaso general a la estructura de la documentaci\363n t\351cnica del esquema IFC}{section.5}% 31
+\BOOKMARK [3][-]{subsubsection.5.2.1}{Especificaciones del esquema IFC en su versi\363n 4 \(IFC4 ADD2 TC1\)}{subsection.5.2}% 32
+\BOOKMARK [3][-]{subsubsection.5.2.2}{Especificaciones del esquema IFC en su versi\363n 2x3 \(IFC2X3 TC1\)}{subsection.5.2}% 33
+\BOOKMARK [1][-]{section.6}{Comprensi\363n \(IV\) a trav\351s de software de visualizaci\363n y revisi\363n de modelos de informaci\363n basados en IFC Schema}{}% 34
+\BOOKMARK [2][-]{subsection.6.1}{ifcDOC, una herramienta para visualizar el propio esquema IFC}{section.6}% 35
+\BOOKMARK [2][-]{subsection.6.2}{Un repaso a los diversos softwares de visualizaci\363n IFC que hay en el mercado}{section.6}% 36
+\BOOKMARK [1][-]{section.7}{Introducci\363n al proyecto IFC5 Next Gen y debate en relaci\363n al futuro de los intercambios de informaci\363n en un marco openBIM en los disintos \341mbitos del ciclo de vida de los activos}{}% 37
+\BOOKMARK [2][-]{subsection.7.1}{IDS \(Information Delivery Specification\)}{section.7}% 38
+\BOOKMARK [2][-]{subsection.7.2}{bSDD, servicio de Data Dictionary}{section.7}% 39
+\BOOKMARK [2][-]{subsection.7.3}{Niveles de conformidad en representaci\363n gr\341fica}{section.7}% 40
